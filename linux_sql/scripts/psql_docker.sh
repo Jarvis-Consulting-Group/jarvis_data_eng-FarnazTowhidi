@@ -1,4 +1,5 @@
-#! /bin/sh:
+#! /bin/bash
+
 cmd=$1
 db_username=$2
 db_password=$3
@@ -28,11 +29,11 @@ case $cmd in
   	fi
   
         #Create container
-	docker pull pgdata
-  	docker volume  pgdata
+	docker pull postgres
+	#create a new volume if not exist
+  	docker volume create pgdata
 	#Start the container
-  	docker run volume1
-  	#Make sure you understand what's `$?`
+  	docker run --name jrvs-psql -e POSTGRES_PASSWORD=db_password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine 
   	exit $?
   	;;
 
