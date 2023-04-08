@@ -16,6 +16,10 @@ vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
 lscpu_out=`lscpu`
 
+echo $id
+echo 'Farnazzzzzzzzzzzzzzzzzzzzzzzzzzzz'
+
+
 #Retrieve hardware specification variables
 cpu_number=$(echo "$lscpu_out" | grep "^CPU(s)" | awk '{print $2}' | xargs)
 cpu_architecture=$(lscpu | grep "^Architecture:" | awk '{print $2}' | xargs)
@@ -34,10 +38,10 @@ cpu_model="cpu_model"
 host_id=2
 
 
-insert_stmt="INSERT INTO host_info (id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem) VALUES(1, '$hostname', 1, 'x86_64', 'Intel(R) Xeon(R) CPU @ 2.30GHz', 2300, 256, '2019-05-29 17:49:53.000', 601324);"
+insert_stmt="INSERT INTO host_info (id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem) VALUES('$id', '$hostname', 1, 'x86_64', 'Intel(R) Xeon(R) CPU @ 2.30GHz', 2300, 256, '2019-05-29 17:49:53.000', 601324);"
 
 #set up env var for pql cmd
 export PGPASSWORD=$psql_password 
 #Insert date into a database
-psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
+psql  -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 exit $?
