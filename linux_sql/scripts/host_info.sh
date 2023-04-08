@@ -14,15 +14,30 @@ fi
 #Save machine statistics in MB and current machine hostname to variables
 vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
+lscpu_out=`lscpu`
 
 #Retrieve hardware specification variables
-memory_free=$(echo "$vmstat_mb" | awk '{print $4}'| tail -n1 | xargs)
-cpu_idle=$(echo "$vmstat_mb" | tail -1 | awk '{print $15}')
-cpu_kernel=$(echo "$vmstat_mb" | tail -1 | awk '{print $14}')
+cpu_number=$(echo "$lscpu_out" | grep "^CPU(s)" | awk '{print $2}' | xargs)
+cpu_architecture=$(lscpu | grep "^Architecture:" | awk '{print $2}' | xargs)
+#cpu_model= $(lscpu | grep '^Model name' | awk '{print $3}' |xargs) 
+cpu_model="cpu_model"
+#memory_free=$(echo "$vmstat_mb" | awk '{print $4}'| tail -n1 | xargs)
+#cpu_idle=$(echo "$vmstat_mb" | tail -1 | awk '{print $15}')
+#cpu_kernel=$(echo "$vmstat_mb" | tail -1 | awk '{print $14}')
 
 
 #Current time in `2019-11-26 14:40:19` UTC format
-timestamp=$(vmstat -t | tail -1 | awk '{print $18,$19}')
+#timestamp=$(vmstat -t | tail -1 | awk '{print $18,$19}')
+
+#Subquery to find matching id in host_info table
+#host_id="(SELECT id FROM host_info WHERE hostname='$hostname')";
+host_id=2
 
 
-echo $timestamp
+insert_stmt="INSERT INTO host_info (id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem) VALUES(1, '$hostname', 1, 'x86_64', 'Intel(R) Xeon(R) CPU @ 2.30GHz', 2300, 256, '2019-05-29 17:49:53.000', 601324);"
+
+#set up env var for pql cmd
+export PGPASSWORD=$psql_password 
+#Insert date into a database
+psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
+exit $?
