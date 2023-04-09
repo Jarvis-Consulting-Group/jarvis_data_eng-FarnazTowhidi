@@ -15,28 +15,24 @@ fi
 vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
 lscpu_out=`lscpu`
+
 cpu_number=$(echo "$lscpu_out" | grep "^CPU(s)" | awk '{print $2}' | xargs)
 cpu_architecture=$(echo "$lscpu_out" | grep "^Architecture:" | awk '{print $2}' | xargs)
-cpu_model= $(echo "$lscpu_out" | grep '^Model name' | awk '{$1=$2=""; print $0}' |xargs) #orint all except first and two 
-cpu_model='cpu model'
-cpu_mhz=$(lscpu | grep '^CPU MHz' | awk '{print $3}')
+cpu_model=$(echo "$lscpu_out" | grep '^Model name' | awk '{$1=$2=""; print $0}' | xargs) 
+cpu_mhz=$(echo "$lscpu_out" | grep '^CPU MHz' | awk '{print $3}')
 l2_cache=$(lscpu | grep -w 'L2 cache' | awk '{print $3}'| sed 's/[a-z,A-Z]//g')
-total_mem= $(vmstat --unit M | tail -1 | awk '{print $4}')
+total_mem=$(vmstat --unit M | tail -1 | awk '{print $4}')
 timestamp=$(vmstat -t | tail -1 | awk '{print $18,$19}')
-
-
-
-echo 'cpu_model: ' $cpu_model 
 
 
 id=5
 
 
-insert_stmt="INSERT INTO host_info (id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem) VALUES('$id', '$hostname', '$cpu_number', '$cpu_architecture', 'cpu model', '$cpu_mhz', '$l2_cache', '$timestamp', 601324)"
+insert_stmt="INSERT INTO host_info (id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem) VALUES('$id', '$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$timestamp', 601324)"
 
 
 export PGPASSWORD=$psql_password 
-psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "DELETE  FROM host_info"
+#psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "DELETE  FROM host_info"
 psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "$insert_stmt"
 psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "SELECT  * FROM host_info"
 
