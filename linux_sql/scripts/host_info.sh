@@ -13,7 +13,7 @@ fi
 
 #Save machine statistics in MB and current machine hostname to variables
 vmstat_mb=$(vmstat --unit M)
-hostname=$(hostname -f)
+hostname=$(hostname -f | xargs)
 lscpu_out=`lscpu`
 
 cpu_number=$(echo "$lscpu_out" | grep "^CPU(s)" | awk '{print $2}' | xargs)
@@ -24,17 +24,11 @@ l2_cache=$(lscpu | grep -w 'L2 cache' | awk '{print $3}'| sed 's/[a-z,A-Z]//g')
 total_mem=$(vmstat --unit M | tail -1 | awk '{print $4}')
 timestamp=$(vmstat -t | tail -1 | awk '{print $18,$19}')
 
+insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem) VALUES('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$timestamp', 601324)"
 
-id=5
-
-
-insert_stmt="INSERT INTO host_info (id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem) VALUES('$id', '$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$timestamp', 601324)"
-
-
-export PGPASSWORD=$psql_password 
-#psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "DELETE  FROM host_info"
+export PGPASSWORD=$psql_password
 psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "$insert_stmt"
-psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "SELECT  * FROM host_info"
+#psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "SELECT  * FROM host_info"
 
 exit $?
 
