@@ -14,21 +14,24 @@ skills:
   proficient:
     - Html/CSS
     - JavaScript
-    - RDBMS/SQL
     - Agile/Scrum
-    - Sql
+    - MongoDB
+    - SQL
+    - MVC Pattern
   # At least 5 skills
   competent:
     - OOP
     - MVC Pattern
+    - MERN Infrastructure
     - Oath Authentication
-    - fermentum
-    - Donec
+    - REST APIs
+    - Deploy GitHub,Heroku
+    - Git, Git Hub
   # At least 5 skills
   familiar:
     - Docker
     - fermentum
-    - fermentum
+    - TestRail
     - Selenium
     - Jira
 
@@ -36,83 +39,73 @@ skills:
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
-  - name: "Web app for resturant"
-    #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "McDonald's Application"
+    git_url: "https://github.com/FarnazTowhidi/macDonald"
+    description: Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.
+  - name: "Chatterbox"
+    git_url: "https://github.com/FarnazTowhidi/mern-project"
+    description: Group of 4 developers creates a MERN stack application, a responsive single page application. Uploader with the use of AWS S3 buckets and the npm package, "aws-sdk". Technologies used, MongoDB, Express, React, Socket.io, Amazon Web Services.
+  - name: "Track Fit"
+    git_url: "https://github.com/aerlikh17/track-fit-app"
+    description: Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, PostreSQL.
+  - name: "War Card Game"
+    git_url: "https://github.com/FarnazTowhidi/warCardGame"
+    description: Solo, 1 week project for the browser base game, using application state, manipulating DOM and includes shuffling and win/loss logic. Technologies used, HTML, CSS and JavaScript.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
-  #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
     duration: "2023-present"
-    description: "Donec mattis sed justo et sagittis.kdjflkj lkjlk jlk jlk j lkj lk jlk jl kj lkj l kjlk jlk kj lkj lk jlk "
+    description: "Donec mattis sed justo et sagittis.kdjflkj lkjlk jlk jlk j lkj Designed and built website for International Conference on Privacy, Security and Trust,including information on evenlk jlk jl kjllkjlkjlj lj lj lj lk jl jl  lj l description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, erosjl jl kj lkj l kjlk jlk kj lkj lk jlk "
   - title: "Quality Assurance"
     company: "IBM ,Fredericton"
     duration: "2020-2020"
-    description: "description"
+    description: "Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency"
   - title: "Full Stack Developer"
     company: "Canadian Institute of Cybersecurity, Fredericton"
     duration: "2019-2019"
     description: "Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers."
+  - title: "Full Stack Developer"
+    company: "Biossentials, Kuala Lumpur"
+    duration: "2009-2014"
+    description: "Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers."
 
 #List of edcuation
-education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+education:
+  - school_name: "General Assembly"
+    duration: "2022-2022"
+    degree: "Software Engineering Immersive"
+    department: "Faculty of Computing"
     # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+    awards_achievements:
+      - "GPA: 3.9/4.0"
+  - school_name: "Universiti Teknologi Malaysia"
+    duration: "2010-2015"
+    degree: "PHD of Computer Science"
+    department: "Faculty of Computing"
+    # optional
+    awards_achievements:
       - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+  - school_name: "Universiti Teknologi Malaysia"
+    duration: "2008-2010"
+    degree: "Master of Computer Science (Information Security)"
+    department: "Faculty of Computing"
+    # optional
+    awards_achievements:
+      - "GPA: 3.65/4.0"
 
 #Optional section
 others:
     #category
-  - title: "Certificates"
+  - title: "Personal Portfolio"
     #list of items
     bullets:
       - "Udacity Machine Learning (2019)"

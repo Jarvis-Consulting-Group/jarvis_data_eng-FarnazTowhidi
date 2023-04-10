@@ -2,34 +2,53 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
+        "GPA: 3.9/4.0"
       ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "degree": "Software Engineering Immersive",
+      "department": "Faculty of Computing",
+      "duration": "2022-2022",
+      "school_name": "General Assembly"
     },
     {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "awards_achievements": [
+        "GPA: 3.8/4.0"
+      ],
+      "degree": "PHD of Computer Science",
+      "department": "Faculty of Computing",
+      "duration": "2010-2015",
+      "school_name": "Universiti Teknologi Malaysia"
+    },
+    {
+      "awards_achievements": [
+        "GPA: 3.65/4.0"
+      ],
+      "degree": "Master of Computer Science (Information Security)",
+      "department": "Faculty of Computing",
+      "duration": "2008-2010",
+      "school_name": "Universiti Teknologi Malaysia"
     }
   ],
   "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.",
+      "git_url": "https://github.com/FarnazTowhidi/macDonald",
+      "name": "McDonald's Application"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Group of 4 developers creates a MERN stack application, a responsive single page application. Uploader with the use of AWS S3 buckets and the npm package, \"aws-sdk\". Technologies used, MongoDB, Express, React, Socket.io, Amazon Web Services.",
+      "git_url": "https://github.com/FarnazTowhidi/mern-project",
+      "name": "Chatterbox"
+    },
+    {
+      "description": "Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, PostreSQL.",
+      "git_url": "https://github.com/aerlikh17/track-fit-app",
+      "name": "Track Fit"
+    },
+    {
+      "description": "Solo, 1 week project for the browser base game, using application state, manipulating DOM and includes shuffling and win/loss logic. Technologies used, HTML, CSS and JavaScript.",
+      "git_url": "https://github.com/FarnazTowhidi/warCardGame",
+      "name": "War Card Game"
     }
   ],
   "jarvis_projects": [
@@ -37,40 +56,6 @@
       "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Farnaz Towhidi",
@@ -79,7 +64,7 @@
       "bullets": [
         "Udacity Machine Learning (2019)"
       ],
-      "title": "Certificates"
+      "title": "Personal Portfolio"
     },
     {
       "bullets": [
@@ -99,38 +84,53 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "description": "Donec mattis sed justo et sagittis.kdjflkj lkjlk jlk jlk j lkj Designed and built website for International Conference on Privacy, Security and Trust,including information on evenlk jlk jl kjllkjlkjlj lj lj lj lk jl jl  lj l description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, erosjl jl kj lkj l kjlk jlk kj lkj lk jlk ",
       "duration": "2023-present",
       "title": "Software Developer"
     },
     {
-      "company": "IBM (Fredericton)",
-      "description": "Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency. Created and edited automated test cases, manual, automation and regression testing. Maintained the Knowledge on QRadar log and network activity and reports.",
+      "company": "IBM ,Fredericton",
+      "description": "Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency",
       "duration": "2020-2020",
       "title": "Quality Assurance"
+    },
+    {
+      "company": "Canadian Institute of Cybersecurity, Fredericton",
+      "description": "Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers.",
+      "duration": "2019-2019",
+      "title": "Full Stack Developer"
+    },
+    {
+      "company": "Biossentials, Kuala Lumpur",
+      "description": "Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers.",
+      "duration": "2009-2014",
+      "title": "Full Stack Developer"
     }
   ],
   "skills": {
     "competent": [
       "OOP",
       "MVC Pattern",
+      "MERN Infrastructure",
       "Oath Authentication",
-      "fermentum",
-      "Donec"
+      "REST APIs",
+      "Deploy GitHub,Heroku",
+      "Git, Git Hub"
     ],
     "familiar": [
       "Docker",
       "fermentum",
-      "fermentum",
+      "TestRail",
       "Selenium",
       "Jira"
     ],
     "proficient": [
       "Html/CSS",
       "JavaScript",
-      "RDBMS/SQL",
       "Agile/Scrum",
-      "Sql"
+      "MongoDB",
+      "SQL",
+      "MVC Pattern"
     ]
   },
   "summary": "Full stack developer with years of experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing the limits to academic knowledge thus my PHD and increasing the knowledge in General Assembly of Toronto."
