@@ -26,6 +26,6 @@ export PGPASSWORD=$psql_password
 hostid=$( psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -t -c "SELECT id FROM host_info WHERE hostname='$hostname'" )
 insert_stmt="INSERT INTO host_usage ("timestamp", host_id, memory_free, cpu_idel, cpu_kernel, disk_io, disk_available) VALUES('$timestamp', '$hostid', '$memory_free', '$cpu_idle', '$cpu_kernel', '$disk_io', '$disk_available')"
 psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "$insert_stmt"
-
+psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "SELECT * FROM host_usage"
 exit $?
 
