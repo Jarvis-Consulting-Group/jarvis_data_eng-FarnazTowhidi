@@ -2,7 +2,9 @@
 
 # Introduction
 
-Discuss the design of the project. What does this project/product do? Who are the users? What are the technologies you have used? (e.g. bash, docker, git, etc..)
+The project will be used by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. LCA want project to record hardware spec of each server and real time resource usage. The MVP plan is to use two bash scripts, host_info.sh, to save the server information, the the other, host_usage that save the real time usage of resources for each node. For persist data Postsql Database is used. 
+
+
 
 # Quick Start
 
@@ -19,7 +21,13 @@ bash
 ````
 
 # Implemenation
-Discuss how you implement the project.
+1. The psql database will be used to persist data over the application. 
+2. The `bash agent` gathers server usage data, and then insert into the psql instance. The `agent` will be installed on every host/server/node. The `agent` consists of two bash scripts
+- `host_info.sh` collects the host hardware info and insert it into the database. It will be run only once at the installation time.
+- `host_usage.sh` collects the current host usage and then insert into the database. It will be triggered by the `cron` job every minute.
+
+
+
 ## Architecture
 Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory.
 
@@ -66,6 +74,7 @@ The host_info table designed to store hardware specifications, and the host_usag
 
 
 # Test
+Manual test done by running two bash script and check the host_usage and host_info tables to check if the data added properly to the DB. 
 ````
 bash -x host_info.sh psql_host psql_port db_name psql_user psql_password
 bash -x host_usage.sh psql_host psql_port db_name psql_user psql_password
@@ -78,6 +87,6 @@ bash -x host_usage.sh psql_host psql_port db_name psql_user psql_password
 # Improvements
 Write at least three things you want to improve
 e.g.
-- host_usage script database
-- blah
-- blah
+- Create resource planning report
+- Create alert for under usage and over usage situation. 
+- Create average memory usage in percentage 
