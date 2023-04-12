@@ -53,7 +53,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     }
