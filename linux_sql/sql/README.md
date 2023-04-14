@@ -5,19 +5,47 @@ This project aimed to get deep insights into managing relational databases, and 
 ## SQL Queries
 ### Table Setup (DDL)
 1. Create table cd.members 
-```sql
-SELECT *
-FROM cd.members
+```
+CREATE TABLE cd.members
+(
+   memid integer NOT NULL, 
+   surname character varying(200) NOT NULL, 
+   firstname character varying(200) NOT NULL, 
+   address character varying(300) NOT NULL, 
+   zipcode integer NOT NULL, 
+   telephone character varying(20) NOT NULL, 
+   recommendedby integer,
+   joindate timestamp NOT NULL,
+   CONSTRAINT members_pk PRIMARY KEY (memid),
+   CONSTRAINT fk_members_recommendedby FOREIGN KEY (recommendedby)
+);         
 ```
 2. Create table cd.booking
-```sql
-SELECT *
-FROM cd.members
+```
+CREATE TABLE cd.bookings
+(
+   bookid integer NOT NULL, 
+   facid integer NOT NULL, 
+   memid integer NOT NULL, 
+   starttime timestamp NOT NULL,
+   slots integer NOT NULL,
+   CONSTRAINT bookings_pk PRIMARY KEY (bookid),
+   CONSTRAINT fk_bookings_facid FOREIGN KEY (facid) REFERENCES cd.facilities(facid),
+   CONSTRAINT fk_bookings_memid FOREIGN KEY (memid) REFERENCES cd.members(memid)
+);  
 ```
 3. Create table cd.facilities
-```sql
-SELECT *
-FROM cd.members
+```
+CREATE TABLE cd.facilities
+(
+   facid integer NOT NULL, 
+   name character varying(100) NOT NULL, 
+   membercost numeric NOT NULL, 
+   guestcost numeric NOT NULL, 
+   initialoutlay numeric NOT NULL, 
+   monthlymaintenance numeric NOT NULL, 
+   CONSTRAINT facilities_pk PRIMARY KEY (facid)
+);
 ```
 
 
@@ -138,7 +166,8 @@ from
 where 
   joindate >= '2012-09-01'
 ```
-###### Questions 11: You, for some reason, want a combined list of all surnames and all facility names. Yes, this is a contrived example :-). Produce that list!
+###### Questions 11: Combining results from multiple queries
+Combined list of all surnames and all facility names. 
 
 ```
 SELECT
@@ -151,7 +180,8 @@ name
 FROM
 cd.facilities
 ```
-###### Questions 12: How can you produce a list of the start times for bookings by members named 'David Farrell'?
+###### Questions 12: Retrieve the start times of members' bookings
+How can you produce a list of the start times for bookings by members named 'David Farrell'?
 ```
 SELECT 
   bks.starttime 
@@ -163,6 +193,7 @@ WHERE
   AND mems.surname = 'Farrell'
 ```
 ###### Questions 13: Work out the start times of bookings for tennis courts
+How can you produce a list of the start times for bookings for tennis courts, for the date '2012-09-21'? Return a list of start time and facility name pairings, ordered by the time.
 ```
 SELECT 
   bks.starttime AS start, 
@@ -176,13 +207,9 @@ WHERE
 ORDER BY 
   bks.starttime
 ```
-###### Question 13
-
-```
-
-```
 
 ###### Questions 14: Produce a list of all members, along with their recommender
+How can you output a list of all members, including the individual who recommended them (if any)? Ensure that results are ordered by (surname, firstname).
 ```
 SELECT 
   mems.firstname AS memfname, 
@@ -196,17 +223,34 @@ ORDER BY
   memfname, 
   memsname
 ```
-###### Question 15
-
+###### Question 15: Produce a list of all members who have recommended another member
+How can you output a list of all members who have recommended another member? Ensure that there are no duplicates in the list, and that results are ordered by (surname, firstname).
 ```
-
+SELECT 
+  DISTINCT mems.firstname firstname, 
+  mems.surname surname 
+FROM 
+  cd.members mems 
+  inner JOIN cd.members recm ON mems.memid = recm.recommendedby 
+ORDER BY 
+  surname, 
+  firstname;
 ```
-###### Question 16
-
+###### Question 16: Produce a list of all members, along with their recommender, using no joins.
+How can you output a list of all members, including the individual who recommended them (if any), without using any joins? Ensure that there are no duplicates in the list, and that each firstname + surname pairing is formatted as a column and ordered.
 ```
-
+select distinct mems.firstname || ' ' ||  mems.surname as member,
+	(select recs.firstname || ' ' || recs.surname as recommender 
+		from cd.members recs 
+		where recs.memid = mems.recommendedby
+	)
+	from 
+		cd.members mems
+order by member;          
 ```
 ###### Questions 17: Count the number of recommendations each member makes.
+Produce a count of the number of recommendations each member has made. Order by member ID.
+
 ```
 SELECT 
   recommendedby, 
@@ -267,7 +311,7 @@ SELECT
 from 
   cd.bookings
 ```
-### Questions 22: List each member's first booking after September 1st 2012
+##### Questions 22: List each member's first booking after September 1st 2012
 Produce a list of each member name, id, and their first booking after September 1st 2012. Order by member ID.
 ```
 SELECT 
@@ -287,33 +331,70 @@ group by
 order by 
   mems.memid;
 ```
-###### Question 23
+###### Question 23: Produce a list of member names, with each row containing the total member count
+Produce a list of member names, with each row containing the total member count. Order by join date, and include guest members.
+
+```
+select count(*) over(), firstname, surname
+	from cd.members
+order by joindate   
+```
+###### Question 24: Produce a numbered list of members
+Produce a monotonically increasing numbered list of members (including guests), ordered by their date of joining. Remember that member IDs are not guaranteed to be sequential.
+
 
 ```
 
 ```
-###### Question 24
+###### Question 25: Output the facility id that has the highest number of slots booked, again
+Output the facility id that has the highest number of slots booked. Ensure that in the event of a tie, all tieing results get output.
+```
+SELECT 
+  fac.facid, 
+  sum(bok.slots) as total 
+FROM 
+  cd.facilities fac 
+  INNER JOIN cd.bookings bok ON fac.facid = bok.facid 
+GROUP BY 
+  fac.facid 
+ORDER BY 
+  total DESC 
+limit 
+  1
+```
+###### Question 26: Format the names of members
+Output the names of all members, formatted as 'Surname, Firstname'
 
 ```
+SELECT 
+  CONCAT(surname, ',', firstname) as name 
+FROM 
+  cd.members
+```
+###### Question 27: Find telephone numbers with parentheses
+You've noticed that the club's member table has telephone numbers with very inconsistent formatting. You'd like to find all the telephone numbers that contain parentheses, returning the member ID and telephone number sorted by member ID.
+```
+SELECT 
+  memid, 
+  telephone 
+FROM 
+  cd.members 
+WHERE 
+  telephone ~ '[()]'
+```
+
+###### Question 28: Count the number of members whose surname starts with each letter of the alphabet
+You'd like to produce a count of how many members you have whose surname starts with each letter of the alphabet. Sort by the letter, and don't worry about printing out a letter if the count is 0.
 
 ```
-###### Question 25
-
-```
-
-```
-###### Question 26
-
-```
-
-```
-###### Question 27
-
-```
-
-```
-###### Question 28
-
-```
+SELECT
+  SUBSTR(mems.surname, 1, 1) as letter, 
+  count(*) as count 
+FROM 
+  cd.members mems 
+GROUP BY 
+  letter 
+order by 
+  letter
 
 ```

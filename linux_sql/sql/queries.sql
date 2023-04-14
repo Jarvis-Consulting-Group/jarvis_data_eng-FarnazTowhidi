@@ -239,11 +239,45 @@ cd.bookings
 --
 -- Question 24
 --
--- Question 25
---
--- Question 26
---
--- Question 27
---
--- Question 28
---
+-- Question 25: Output the facility id that has the highest number of slots booked, again
+-- Output the facility id that has the highest number of slots booked. Ensure that in the event of a tie, all tieing results get output.
+SELECT
+  fac.facid,
+  sum(bok.slots) as total
+FROM
+  cd.facilities fac
+  INNER JOIN cd.bookings bok ON fac.facid = bok.facid
+GROUP BY
+  fac.facid
+ORDER BY
+  total DESC
+limit
+  1
+-- Question 26: Format the names of members
+-- Output the names of all members, formatted as 'Surname, Firstname'
+SELECT
+  CONCAT(surname, ',', firstname) as name
+FROM
+  cd.members
+
+-- Question 27: Find telephone numbers with parentheses
+-- You've noticed that the club's member table has telephone numbers with very inconsistent formatting. You'd like to find all the telephone numbers that contain parentheses, returning the member ID and telephone number sorted by member ID.
+SELECT
+  memid,
+  telephone
+FROM
+  cd.members
+WHERE
+  telephone ~ '[()]'
+
+-- Question 28: Count the number of members whose surname starts with each letter of the alphabet
+-- You'd like to produce a count of how many members you have whose surname starts with each letter of the alphabet. Sort by the letter, and don't worry about printing out a letter if the count is 0.
+SELECT
+  SUBSTR(mems.surname, 1, 1) as letter,
+  count(*) as count
+FROM
+  cd.members mems
+GROUP BY
+  letter
+order by
+  letter
