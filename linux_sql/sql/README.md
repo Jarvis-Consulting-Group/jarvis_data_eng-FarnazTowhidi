@@ -161,9 +161,9 @@ SELECT
   surname, 
   firstname, 
   joindate 
-from 
+FROM 
   cd.members 
-where 
+WHERE 
   joindate >= '2012-09-01'
 ```
 ###### Questions 11: Combining results from multiple queries
@@ -171,14 +171,14 @@ Combined list of all surnames and all facility names.
 
 ```
 SELECT
-surname
+   surname
 FROM
-cd.members
+   cd.members
 UNION
 SELECT
-name
+   name
 FROM
-cd.facilities
+   cd.facilities
 ```
 ###### Questions 12: Retrieve the start times of members' bookings
 How can you produce a list of the start times for bookings by members named 'David Farrell'?
@@ -190,7 +190,7 @@ FROM
   INNER JOIN cd.members mems ON bks.memid = mems.memid 
 WHERE 
   mems.firstname = 'David' 
-  AND mems.surname = 'Farrell'
+AND mems.surname = 'Farrell'
 ```
 ###### Questions 13: Work out the start times of bookings for tennis courts
 How can you produce a list of the start times for bookings for tennis courts, for the date '2012-09-21'? Return a list of start time and facility name pairings, ordered by the time.
@@ -268,11 +268,11 @@ Produce a list of the total number of slots booked per facility. For now, just p
 SELECT
     facid,
     sum(slots) AS "TOTAL Slots"
-from
+FROM
     cd.bookings
-group by
+GROUP BY
     f.acid
-order by
+ORDER BY
     facid
 ```
 ###### Questions 19: List the total slots booked per facility in a given month
@@ -288,7 +288,7 @@ WHERE
   and starttime < '2012-10-01' 
 GROUP BY 
   facid 
-order by 
+ORDER BY 
   SUM(slots)
 ```
 
@@ -308,28 +308,28 @@ SELECT
   count(
     DISTINCT(memid)
   ) AS count 
-from 
+FROM 
   cd.bookings
 ```
 
 ##### Questions 22: List each member's first booking after September 1st 2012
 Produce a list of each member name, id, and their first booking after September 1st 2012. Order by member ID.
 ```
-   SELECT
+ SELECT
      mems.surname,
      mems.firstname,
      mems.memid,
      min(bks.starttime) AS starttime
-   FROM
+ FROM
      cd.members mems
      INNER JOIN cd.bookings bks ON mems.memid = bks.memid
-   WHERE
+ WHERE
      starttime >= '2012-09-01'
-   GROUP BY
+ GROUP BY
      mems.surname,
      mems.firstname,
      mems.memid
-   ORDER BY
+ ORDER BY
      mems.memid;
 ```
 ###### Question 23: Produce a list of member names, with each row containing the total member count
@@ -344,9 +344,9 @@ order by joindate
 Produce a monotonically increasing numbered list of members (including guests), ordered by their date of joining. Remember that member IDs are not guaranteed to be sequential.
 
 ```
-select row_number() over(order by joindate), firstname, surname
-	from cd.members
-order by joindate 
+SELECT row_number() over(order by joindate), firstname, surname
+FROM cd.members
+ORDER BY joindate 
 ```
 ###### Question 25: Output the facility id that has the highest number of slots booked, again
 Output the facility id that has the highest number of slots booked. Ensure that in the event of a tie, all tieing results get output.
@@ -361,7 +361,7 @@ GROUP BY
   fac.facid 
 ORDER BY 
   total DESC 
-limit 
+LIMIT 
   1
 ```
 ###### Question 26: Format the names of members
@@ -369,7 +369,7 @@ Output the names of all members, formatted as 'Surname, Firstname'
 
 ```
 SELECT 
-  CONCAT(surname, ',', firstname) as name 
+  CONCAT(surname, ',', firstname) AS name 
 FROM 
   cd.members
 ```
@@ -390,8 +390,8 @@ You'd like to produce a count of how many members you have whose surname starts 
 
 ```
 SELECT
-  SUBSTR(mems.surname, 1, 1) as letter, 
-  count(*) as count 
+  SUBSTR(mems.surname, 1, 1) AS letter, 
+  count(*) AS  count 
 FROM 
   cd.members mems 
 GROUP BY 
