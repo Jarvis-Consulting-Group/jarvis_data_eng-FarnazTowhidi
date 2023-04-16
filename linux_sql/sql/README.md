@@ -118,7 +118,7 @@ WHERE
   memid = 37;
 
 ```
-###### Question 7: Control which rows are retrieved - part 2
+###### Question 7: Control which rows are retrieved 
 How can you produce a list of facilities that charge a fee to members, and that fee is less than 1/50th of the monthly maintenance cost? Return the facid, facility name, member cost, and monthly maintenance of the facilities in question.
 ```sql
 SELECT
@@ -239,14 +239,14 @@ ORDER BY
 ###### Question 16: Produce a list of all members, along with their recommender, using no joins.
 How can you output a list of all members, including the individual who recommended them (if any), without using any joins? Ensure that there are no duplicates in the list, and that each firstname + surname pairing is formatted as a column and ordered.
 ```
-select distinct mems.firstname || ' ' ||  mems.surname as member,
-	(select recs.firstname || ' ' || recs.surname as recommender 
-		from cd.members recs 
-		where recs.memid = mems.recommendedby
+SELECT DISTINCT mems.firstname || ' ' ||  mems.surname AS member,
+	(SELECT recs.firstname || ' ' || recs.surname AS recommender 
+		FROM cd.members recs 
+		WHERE recs.memid = mems.recommendedby
 	)
-	from 
+	FROM 
 		cd.members mems
-order by member;          
+ORDER BY member;          
 ```
 ###### Questions 17: Count the number of recommendations each member makes.
 Produce a count of the number of recommendations each member has made. Order by member ID.
@@ -311,25 +311,26 @@ SELECT
 from 
   cd.bookings
 ```
+
 ##### Questions 22: List each member's first booking after September 1st 2012
 Produce a list of each member name, id, and their first booking after September 1st 2012. Order by member ID.
 ```
-SELECT 
-  mems.surname, 
-  mems.firstname, 
-  mems.memid, 
-  min(bks.starttime) as starttime 
-FROM 
-  cd.members mems 
-  INNER JOIN cd.bookings bks ON mems.memid = bks.memid 
-where 
-  starttime >= '2012-09-01' 
-group by 
-  mems.surname, 
-  mems.firstname, 
-  mems.memid 
-order by 
-  mems.memid;
+   SELECT
+     mems.surname,
+     mems.firstname,
+     mems.memid,
+     min(bks.starttime) AS starttime
+   FROM
+     cd.members mems
+     INNER JOIN cd.bookings bks ON mems.memid = bks.memid
+   WHERE
+     starttime >= '2012-09-01'
+   GROUP BY
+     mems.surname,
+     mems.firstname,
+     mems.memid
+   ORDER BY
+     mems.memid;
 ```
 ###### Question 23: Produce a list of member names, with each row containing the total member count
 Produce a list of member names, with each row containing the total member count. Order by join date, and include guest members.
@@ -342,9 +343,10 @@ order by joindate
 ###### Question 24: Produce a numbered list of members
 Produce a monotonically increasing numbered list of members (including guests), ordered by their date of joining. Remember that member IDs are not guaranteed to be sequential.
 
-
 ```
-
+select row_number() over(order by joindate), firstname, surname
+	from cd.members
+order by joindate 
 ```
 ###### Question 25: Output the facility id that has the highest number of slots booked, again
 Output the facility id that has the highest number of slots booked. Ensure that in the event of a tie, all tieing results get output.
