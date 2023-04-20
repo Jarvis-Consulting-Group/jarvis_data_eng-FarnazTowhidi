@@ -1,7 +1,6 @@
 # Introduction
 The JDBC application performs CRUD operations (Create, Read, Update, Delete) on a database using the JDBC API. A PostgreSQL database running in a Docker container was used, along with Maven to manage packages and dependencies and Git for version control.
 
-
 ## Prerequisites
 1. Docker is installed
 2. psql client is installed
@@ -19,7 +18,6 @@ sudo systemctl status docker
 docker ps
 docker container start lil-postgres
 ```
-
 4. Create database hplussport and load all the data in the tables by running these sql files
 ```
 psql -h localhost -U postgres -p 5554 -f database.sql
