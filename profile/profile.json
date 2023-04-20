@@ -56,6 +56,16 @@
       "description": "The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
+    },
+    {
+      "description": "Created SQL queries to retrieve data from multiple tables. A PostgreSQL instance using docker was utilized to load sample data and test the results of the queries. Git was used as version control for the project.",
+      "git_url": "/linux_sql/sql",
+      "name": "RDBMS and SQL"
+    },
+    {
+      "description": "Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.",
+      "git_url": "/core_java/jdbc",
+      "name": "Core Java Apps"
     }
   ],
   "name": "Farnaz Towhidi",
@@ -84,9 +94,9 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis.kdjflkj lkjlk jlk jlk j lkj Designed and built website for International Conference on Privacy, Security and Trust,including information on evenlk jlk jl kjllkjlkjlj lj lj lj lk jl jl  lj l description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, erosjl jl kj lkj l kjlk jlk kj lkj lk jlk ",
+      "description": "Developed multiple software applications and worked on projects using Java, SQL, Linux Bash, Docker and more. Agile/Scrum was used to collaborate with team and produce minimum viable products. Git was utilized for version control on projects.",
       "duration": "2023-present",
-      "title": "Software Developer"
+      "title": "Technical Consultant"
     },
     {
       "company": "IBM ,Fredericton",
