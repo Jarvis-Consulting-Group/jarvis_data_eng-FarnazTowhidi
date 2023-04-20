@@ -17,6 +17,10 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/master/linux_sql)]: The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.
 
+**RDBMS and SQL** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/master/linux_sql/sql)]: Created SQL queries to retrieve data from multiple tables. A PostgreSQL instance using docker was utilized to load sample data and test the results of the queries. Git was used as version control for the project.
+
+**Core Java Apps** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/master/core_java/jdbc)]: Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.
+
 
 ## Highlighted Projects
 **McDonald's Application** [[GitHub](https://github.com/FarnazTowhidi/macDonald)]: Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.
@@ -30,7 +34,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2023-present)**: Donec mattis sed justo et sagittis.kdjflkj lkjlk jlk jlk j lkj Designed and built website for International Conference on Privacy, Security and Trust,including information on evenlk jlk jl kjllkjlkjlj lj lj lj lk jl jl  lj l description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, erosjl jl kj lkj l kjlk jlk kj lkj lk jlk 
+**Technical Consultant, Jarvis (2023-present)**: Developed multiple software applications and worked on projects using Java, SQL, Linux Bash, Docker and more. Agile/Scrum was used to collaborate with team and produce minimum viable products. Git was utilized for version control on projects.
 
 **Quality Assurance, IBM ,Fredericton (2020-2020)**: Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency
 
