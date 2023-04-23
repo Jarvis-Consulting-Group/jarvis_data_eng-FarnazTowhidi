@@ -3,6 +3,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.List;
 
 public class JDBCExecutor {
     public static void main(String... args){
@@ -43,24 +44,41 @@ public class JDBCExecutor {
 //                    customer.getEmail());
 //
             //Add Customer, find it, and Delete after
-            Customer customer = new Customer();
-            customer.setFirstName("John");
-            customer.setLastName("Adams");
-            customer.setEmail("jadams.wh.gov");
-            customer.setAddress("1234 Main St");
-            customer.setCity("Arlington");
-            customer.setState("VA");
-            customer.setPhone("(555) 555-9845");
-            customer.setZipCode("01234");
+//            Customer customer = new Customer();
+//            customer.setFirstName("John");
+//            customer.setLastName("Adams");
+//            customer.setEmail("jadams.wh.gov");
+//            customer.setAddress("1234 Main St");
+//            customer.setCity("Arlington");
+//            customer.setState("VA");
+//            customer.setPhone("(555) 555-9845");
+//            customer.setZipCode("01234");
+//
+//            Customer dbCustomer = customerDAO.create(customer);
+//            System.out.println(dbCustomer);
+//            dbCustomer = customerDAO.findById(dbCustomer.getId());
+//            System.out.println(dbCustomer);
+//            dbCustomer.setEmail("john.adams@wh.gov");
+//            dbCustomer = customerDAO.update(dbCustomer);
+//            System.out.println(dbCustomer);
+//            customerDAO.delete(dbCustomer.getId());
 
-            Customer dbCustomer = customerDAO.create(customer);
-            System.out.println(dbCustomer);
-            dbCustomer = customerDAO.findById(dbCustomer.getId());
-            System.out.println(dbCustomer);
-            dbCustomer.setEmail("john.adams@wh.gov");
-            dbCustomer = customerDAO.update(dbCustomer);
-            System.out.println(dbCustomer);
-            customerDAO.delete(dbCustomer.getId());
+            // Using Store Procedure Shows Error
+//            OrderDAO orderDAO = new OrderDAO(connection);
+//            List<Order> orders = orderDAO.getOrdersForCustomer(789);
+//            orders.forEach(System.out::println);
+
+            // List all customer
+
+            //customerDAO.findAllSorted(20).forEach(System.out::println);
+
+            //List customer with paging
+            customerDAO.findAllSorted(20).forEach(System.out::println);
+            System.out.println("Paged");
+            for(int i=1;i<3;i++){
+                System.out.println("Page number: " + i);
+                customerDAO.findAllPaged(10, i).forEach(System.out::println);
+            }
         }catch(SQLException e){
             e.printStackTrace();
         }

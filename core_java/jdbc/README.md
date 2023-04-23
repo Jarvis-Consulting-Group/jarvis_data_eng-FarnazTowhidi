@@ -20,20 +20,20 @@ docker container start lil-postgres
 ```
 4. Create database hplussport and load all the data in the tables by running these sql files
 ```
-psql -h localhost -U postgres -p 5554 -f database.sql
-psql -h localhost -U postgres -d hplussport -p 5554 -f customer.sql
-psql -h localhost -U postgres -d hplussport  -p 5554 -f product.sql
-psql -h localhost -U postgres -d hplussport -p 5554 -f salesperson.sql
-psql -h localhost -U postgres -d hplussport -p 5554 -f orders.sql
+psql -h localhost -U postgres -p 5432 -f database.sql
+psql -h localhost -U postgres -d hplussport -p 5432 -f customer.sql
+psql -h localhost -U postgres -d hplussport  -p 5432 -f product.sql
+psql -h localhost -U postgres -d hplussport -p 5432 -f salesperson.sql
+psql -h localhost -U postgres -d hplussport -p 5432 -f orders.sql
 ```
 
 5. Connect to the PSQL instance
 ```
 psql -h localhost -U postgres -d hplussport
-psql -h localhost -U postgres -p 5554
+psql -h localhost -U postgres -p 5432
 ```
 6. Creating stored procedure
-`psql -h localhost -U postgres -f stored_proc.sql`
+```psql -h localhost -U postgres -f stored_proc.sql```
 ## ER Diagram
 ![core_java_ER.png](..%2Fassets%2Fcore_java_ER.png)
 
@@ -51,3 +51,5 @@ The Repository pattern provides a higher-level interface to access data by putti
 ```SELECT COUNT(*) FROM customer;```
 4. Run the java file to check if the JDBC connection is established
 5. It is manually tested the application by querying the PostgresSQL database within a terminal to confirm whether data from the application had been created, updated, or deleted the data. When reading from the database, The PostgresSQL database was set up and deployed within a docker container using the docker run command with the Postgres base image from Docker Hub.
+6. Check if the specific port of open. ```sudo lsof -i:5432```
+7. kill process. ```sudo kill -9 processID```
