@@ -21,8 +21,15 @@ psql client is installed
 
 ### 3- Automatically add import statements
 
-
-
+# Pseudocode process method
+```
+matchedLines = []
+for file in listFilesRecursively(rootDir)
+  for line in readLines(file)
+      if containsPattern(line)
+        matchedLines.add(line)
+writeToFile(matchedLines)
+```
 # Implementaiton
 - JVM for Java program
 - Github for SCM
