@@ -1,15 +1,13 @@
 package ca.jrvs.apps.grep;
 
 
-
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import org.apache.log4j.BasicConfigurator;
 
 
@@ -34,7 +32,6 @@ public class JavaGrepImp implements JavaGrep  {
 
     try{
       javaGrepImp.process();
-
     }catch (Exception ex){
       logger.error(ex.getMessage(), ex);
     }
@@ -91,9 +88,8 @@ public class JavaGrepImp implements JavaGrep  {
     BufferedReader reader = new BufferedReader(new FileReader(inputFile));
     String line = reader.readLine();
 
-    while (line != null) {
-
-      // read next line
+    while (!line.isEmpty()) {
+      System.out.println(line);
       line = reader.readLine();
       lines.add (line);
     }
@@ -104,12 +100,19 @@ public class JavaGrepImp implements JavaGrep  {
 
   @Override
   public boolean containPattern(String line) {
-    return false;
+    Pattern pattern = Pattern.compile(this.getRegex(), Pattern.CASE_INSENSITIVE);
+    Matcher matcher = pattern.matcher(line);
+    boolean matchFound = matcher.find();
+    return matchFound;
   }
 
   @Override
   public void writeToFile(List<String> lines) throws IOException {
-
+    FileWriter writer = new FileWriter(this.getOutFile());
+    for(String str: lines) {
+      writer.write(str + System.lineSeparator());
+    }
+    writer.close();
   }
 
   @Override
