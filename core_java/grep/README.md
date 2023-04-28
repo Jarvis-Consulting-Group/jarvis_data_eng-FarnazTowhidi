@@ -60,7 +60,7 @@ EOF
 docker build -t ${docker_user}/grep .
 #verify your image
 docker image ls | grep "grep"
-#run docker container (you must undertand all options)
+#run docker container
 docker run --rm \
 -v `pwd`/data:/data -v `pwd`/log:/log \
 ${docker_user}/grep .*Romeo.*Juliet.* /data /log/grep.out
