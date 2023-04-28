@@ -48,15 +48,21 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 - GPA: 3.9/4.0
 
 **Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing
-- GPA: 3.8/4.0
 
 **Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing
 - GPA: 3.65/4.0
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
+- Computer Hacking Forensics Investigator (CHFI), EC-Council
+- Certified Ethical Hacker (CEH), EC-Council
+- Cloud Core, IBM
+- Design and User Experience (D&UX), IBM
+- Introduction to Cloud, IBM
+- Enterprise Design Thinking Practitioner, IBM
+- Tech-ReEntry, IBM
+- Marketing your own Business on Internet, University of Waterloo
+- Effective Selling, University of Waterloo
 - Basketball player
 - Competitive gaming
 - Volunteer, ABC Food bank: Ut enim ad minim veniam

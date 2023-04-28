@@ -99,7 +99,6 @@ education:
     department: "Faculty of Computing"
     # optional
     awards_achievements:
-      - "GPA: 3.8/4.0"
   - school_name: "Universiti Teknologi Malaysia"
     duration: "2008-2010"
     degree: "Master of Computer Science (Information Security)"
@@ -111,13 +110,18 @@ education:
 #Optional section
 others:
     #category
-  - title: "Personal Portfolio"
+  - title: "Licenses & Certifications"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "Computer Hacking Forensics Investigator (CHFI), EC-Council"
+      - "Certified Ethical Hacker (CEH), EC-Council"
+      - "Cloud Core, IBM"
+      - "Design and User Experience (D&UX), IBM"
+      - "Introduction to Cloud, IBM"
+      - "Enterprise Design Thinking Practitioner, IBM"
+      - "Tech-ReEntry, IBM"
+      - "Marketing your own Business on Internet, University of Waterloo"
+      - "Effective Selling, University of Waterloo"
   - title: "Activities/Hobbies"
     bullets:
       - "Basketball player"
