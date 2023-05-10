@@ -1,23 +1,18 @@
 package ca.jrvs.apps.twitter.dao.helper;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
 import oauth.signpost.OAuthConsumer;
 import oauth.signpost.commonshttp.CommonsHttpOAuthConsumer;
 import oauth.signpost.exception.*;
 import org.apache.http.HttpResponse;
 
-import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpDelete;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.message.BasicNameValuePair;
 
 public class TwitterHttpHelper implements HttpHelper {
   private final OAuthConsumer consumer;
@@ -37,7 +32,7 @@ public class TwitterHttpHelper implements HttpHelper {
   }
 
   @Override
-  public HttpResponse httpPost(URI uri) {
+  public HttpResponse httpPost(URI uri, String s) {
     try {
       System.out.println("Executing POST request...");
 
@@ -49,17 +44,22 @@ public class TwitterHttpHelper implements HttpHelper {
 
       consumer.sign(httpPost);
       return httpClient.execute(httpPost);
-    } catch (OAuthMessageSignerException |
-             OAuthExpectationFailedException |
-             OAuthCommunicationException |
-             IOException e) {
+    } catch (OAuthException | IOException e) {
       throw new RuntimeException("Failed to execute", e);
     }
   }
 
   @Override
   public HttpResponse httpGet(URI uri) {
-    return null;
+    try {
+      System.out.println("Executing GET request...");
+      HttpGet httpGet = new HttpGet(uri);
+      consumer.sign(httpGet);
+      return httpClient.execute(httpGet);
+    }
+    catch (OAuthException | IOException e) {
+      throw new RuntimeException("Exception Get", e);
+    }
   }
 
   @Override
@@ -69,7 +69,7 @@ public class TwitterHttpHelper implements HttpHelper {
       HttpDelete httpDelete = new HttpDelete(uri);
       consumer.sign(httpDelete);
       return httpClient.execute(httpDelete);
-    } catch (IOException  | OAuthMessageSignerException | OAuthCommunicationException | OAuthExpectationFailedException e) {
+    } catch (IOException  | OAuthException  e) {
       throw new RuntimeException("Exception DELETE", e);
     }
   }

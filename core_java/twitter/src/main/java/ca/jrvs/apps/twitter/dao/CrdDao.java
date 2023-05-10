@@ -21,5 +21,5 @@ public interface CrdDao<T, ID> {
    * @param id of the entity to be deleted
    * @return deleted entity
    */
-  T deleteById(ID id);
+  T deleteById(ID id) throws Exception;
 }

@@ -1,5 +1,6 @@
 package ca.jrvs.apps.twitter.example;
 
+import ca.jrvs.apps.twitter.dao.TwitterDao;
 import ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelper;
 import java.net.URI;
 
@@ -11,12 +12,13 @@ public class TwitterHttpHelperTest {
   private static String TOKEN_SECRET="rdHhvODdFBU8r3AZI5YoixDGMHhaq76nCuGdWGR9NW7RL";
 
   public static void main(String[] args) throws Exception {
+
     TwitterHttpHelper twitterHttpHelper = new TwitterHttpHelper(CONSUMER_KEY,  CONSUMER_SECRET, ACCESS_TOKEN, TOKEN_SECRET);
-    twitterHttpHelper.httpPost(URI.create("https://api.twitter.com/2/tweets"));
-    //twitterHttpHelper.httpPost(URI.create("https://api.twitter.com/1.1/statuses/update.json?status=false"));
+    TwitterDao twitterDao = new TwitterDao(twitterHttpHelper);
+    twitterDao.deleteById("1656045006015062017");
 
-
-    //twitterHttpHelper.httpDelete(URI.create("https://api.twitter.com/2/tweets/1654321791177830401"));
+    //twitterHttpHelper.httpPost(URI.create("https://api.twitter.com/2/tweets"));
+    //twitterHttpHelper.httpDelete(URI.create("https://api.twitter.com/2/tweets/1655583278097743876"));
   }
 
 

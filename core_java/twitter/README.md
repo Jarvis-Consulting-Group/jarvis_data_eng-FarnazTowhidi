@@ -9,6 +9,25 @@ Body:
 "text": "Hello World!"
 }
 ```
-
+# Twitter Json
+```
+{
+	"created_at": "Fri Feb 14 19:00:55 +0000 2020",
+	"id_str": "1228393702244134912",
+	"text": "What did the developer write in their Valentine?s card?\n  \nwhile(true) {\n    I = Love(You);  \n}",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": []
+	},
+	"user": {
+		"entities": {
+			"url": {}
+		}
+	},
+	"place": {}
+}
+```
 3-Get Tweet:
 End Point: GET /2/users/me
