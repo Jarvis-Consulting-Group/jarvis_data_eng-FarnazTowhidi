@@ -2,6 +2,7 @@ package ca.jrvs.apps.twitter.example;
 
 import ca.jrvs.apps.twitter.dao.TwitterDao;
 import ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelper;
+import ca.jrvs.apps.twitter.model.Tweet;
 import java.net.URI;
 
 public class TwitterHttpHelperTest {
@@ -15,9 +16,10 @@ public class TwitterHttpHelperTest {
 
     TwitterHttpHelper twitterHttpHelper = new TwitterHttpHelper(CONSUMER_KEY,  CONSUMER_SECRET, ACCESS_TOKEN, TOKEN_SECRET);
     TwitterDao twitterDao = new TwitterDao(twitterHttpHelper);
-    twitterDao.deleteById("1656045006015062017");
 
-    //twitterHttpHelper.httpPost(URI.create("https://api.twitter.com/2/tweets"));
+    //twitterDao.deleteById("1656045006015062017");
+
+    twitterHttpHelper.httpPost(URI.create("https://api.twitter.com/2/tweets"), "parinazzzzz");
     //twitterHttpHelper.httpDelete(URI.create("https://api.twitter.com/2/tweets/1655583278097743876"));
   }
 

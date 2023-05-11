@@ -1,5 +1,10 @@
 package ca.jrvs.apps.twitter.dao;
 
+import java.io.IOException;
+import oauth.signpost.exception.OAuthCommunicationException;
+import oauth.signpost.exception.OAuthExpectationFailedException;
+import oauth.signpost.exception.OAuthMessageSignerException;
+
 public interface CrdDao<T, ID> {
 
   /**
@@ -7,7 +12,8 @@ public interface CrdDao<T, ID> {
    * @param entity entity that to be created
    * @return created entity
    */
-  T create(T entity);
+  T create(T entity)
+      throws IOException, OAuthMessageSignerException, OAuthExpectationFailedException, OAuthCommunicationException;
 
   /**
    * Find an entity(Tweet) by its id

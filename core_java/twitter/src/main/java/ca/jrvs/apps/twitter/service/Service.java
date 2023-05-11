@@ -1,19 +1,22 @@
 package ca.jrvs.apps.twitter.service;
 
 import ca.jrvs.apps.twitter.model.Tweet;
+import java.io.IOException;
 import java.util.List;
+import oauth.signpost.exception.OAuthCommunicationException;
+import oauth.signpost.exception.OAuthExpectationFailedException;
+import oauth.signpost.exception.OAuthMessageSignerException;
 
 public interface Service {
-
   /**
    * Validate and post a user input Tweet
    *
    * @param tweet tweet to be created
    * @return created tweet
-   *
    * @throws IllegalArgumentException if text exceed max number of allowed characters or lat/long out of range
    */
-  Tweet postTweet(Tweet tweet);
+  Tweet postTweet(Tweet tweet)
+      throws OAuthMessageSignerException, OAuthExpectationFailedException, IOException, OAuthCommunicationException;
 
   /**
    * Search a tweet by ID
@@ -31,9 +34,8 @@ public interface Service {
    *
    * @param ids tweet IDs which will be deleted
    * @return A list of Tweets
-   *
    * @throws IllegalArgumentException if one of the IDs is invalid.
    */
-  List<Tweet> deleteTweets(String[] ids);
+  List<Tweet> deleteTweets(String[] ids) throws Exception;
 
 }

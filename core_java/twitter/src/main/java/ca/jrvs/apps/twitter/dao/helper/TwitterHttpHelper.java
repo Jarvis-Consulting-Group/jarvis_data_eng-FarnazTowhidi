@@ -35,13 +35,12 @@ public class TwitterHttpHelper implements HttpHelper {
   public HttpResponse httpPost(URI uri, String s) {
     try {
       System.out.println("Executing POST request...");
-
       HttpPost httpPost = new HttpPost(uri);
-      String body= "{\"text\":\"salam be royee mahe shoma\"}";
-      StringEntity stringEntity = new StringEntity(body);
-      httpPost.setEntity(stringEntity);
-      httpPost.setHeader("Content-type", "application/json");
-
+      if (s != null){
+        httpPost.setHeader("Content-Type","application/json");
+        String requestBody = "{\"text\": \"" + s + "\"}";
+        httpPost.setEntity(new StringEntity(requestBody));
+      }
       consumer.sign(httpPost);
       return httpClient.execute(httpPost);
     } catch (OAuthException | IOException e) {

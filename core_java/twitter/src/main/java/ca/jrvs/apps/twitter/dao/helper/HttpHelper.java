@@ -15,8 +15,6 @@ public interface HttpHelper {
   HttpResponse httpPost(URI uri, String s)
       throws OAuthMessageSignerException, OAuthExpectationFailedException, OAuthCommunicationException;
 
-  HttpResponse httpPost(URI uri);
-
   /**
    * Execute a HTTP Get call
    * @param uri
