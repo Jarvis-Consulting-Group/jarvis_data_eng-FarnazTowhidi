@@ -28,4 +28,17 @@ public class TwitterHttpHelperTest {
     twitterHttpHelper.httpDelete(URI.create("https://api.twitter.com/2/tweets/1654542517247909890"));
 
   }
+
+  @Test
+  public void httpPost() {
+  }
+
+  @Test
+  public void httpGet() {
+  }
+
+  @Test
+  public void testHttpDelete() {
+
+  }
 }

@@ -34,8 +34,9 @@ public class TwitterCliApp {
     Controller twitterController = new TwitterController(twitterService);
     TwitterCliApp twitterApp = new TwitterCliApp(twitterController);
 
-    //twitterApp.run(new String[]{"delete", "1656331627750883332,1656331964113207296"});
-    twitterApp.run(new String[]{"post", "MmmmmMMMM"});
+    //twitterApp.run(new String[]{"delete", "1657010393619877888,1656331964113207296"});
+    twitterApp.run(new String[]{"post", "test1234"});
+    //twitterApp.run(new String[]{"show", "me"});
   }
 
   public void run(String[] args) throws Exception {
@@ -47,7 +48,7 @@ public class TwitterCliApp {
         controller.postTweet(args);
         break;
       case "show":
-        //controller.showTweet(controller.showTweet(args));
+        controller.showTweet(args);
         break;
       case "delete":
         controller.deleteTweet(args);

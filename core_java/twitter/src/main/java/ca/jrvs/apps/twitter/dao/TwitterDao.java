@@ -15,7 +15,7 @@ public class TwitterDao implements CrdDao<Tweet, String> {
   //Path for Post, get and delete
   private static final String API_BASE_URI="https://api.twitter.com";
   private static final String POST_PATH="/2/tweets";
-  private static final String SHOW_PATH="/2/tweets/";
+  private static final String SHOW_PATH="/2/users/";
   private static final String DELETE_PATH="/2/tweets/";
   //URI symbols
   private static final String QUERY_SYM = "?";
@@ -33,30 +33,25 @@ public class TwitterDao implements CrdDao<Tweet, String> {
   @Override
   public Tweet create(Tweet entity)
       throws IOException, OAuthMessageSignerException, OAuthExpectationFailedException, OAuthCommunicationException {
-//    URI uri;
-//    try {
-//      uri = new URI(API_BASE_URI + POST_PATH);
-//    } catch (URISyntaxException e) {
-//      throw new RuntimeException(e);
-//    }
+
     //HttpResponse response = httpHelper.httpPost(URI.create("https://api.twitter.com/2/tweets"), entity.getText());
     HttpResponse response = httpHelper.httpPost(URI.create(API_BASE_URI + POST_PATH), entity.getText());
-    //HttpResponse response = httpHelper.httpPost(uri, entity.getText());
-    return parseResponseBody(response, 201);
+    return parseResponseBody(response, 200);
   }
 
 
   @Override
-  public Tweet findById(String s) {
-    return null;
+  public Tweet findById(String s) throws IOException {
+    URI uri = URI.create(API_BASE_URI + SHOW_PATH + s);
+    HttpResponse response =  httpHelper.httpGet(uri);
+    return parseResponseBody(response,200);
   }
 
   @Override
   public Tweet deleteById(String s) throws Exception {
     URI uri = URI.create(API_BASE_URI + DELETE_PATH + s);
     HttpResponse response =  httpHelper.httpDelete(uri);
-    parseResponseBody(response,200);
-    return null;
+    return parseResponseBody(response,200);
   }
 
   public Tweet parseResponseBody(HttpResponse response, Integer expectedStatusCode)

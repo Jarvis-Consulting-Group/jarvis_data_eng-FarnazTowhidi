@@ -20,7 +20,7 @@ public interface CrdDao<T, ID> {
    * @param id entity id
    * @return Tweet entity
    */
-  T findById(ID id);
+  T findById(ID id) throws IOException;
 
   /**
    * Delete an entity(Tweet) by its ID

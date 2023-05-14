@@ -27,7 +27,7 @@ public interface Service {
    *
    * @throws IllegalArgumentException if id or fields param is invalid
    */
-  Tweet showTweet(String id, String[] fields);
+  Tweet showTweet(String id, String[] fields) throws IOException;
 
   /**
    * Delete Tweet(s) by id(s).

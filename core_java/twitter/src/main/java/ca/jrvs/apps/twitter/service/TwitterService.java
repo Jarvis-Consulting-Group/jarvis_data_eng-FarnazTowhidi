@@ -24,7 +24,8 @@ public class TwitterService implements Service{
   }
 
   @Override
-  public Tweet showTweet(String id, String[] fields) {
+  public Tweet showTweet(String id, String[] fields) throws IOException {
+    Tweet tweet = (Tweet) dao.findById(id);
     return null;
   }
 

@@ -1,9 +1,39 @@
+# Twitter Java App (API v2)
+# Technologies
+- Java 8 ()
+- Postman / Twitter Api
+- Docker
+- OAth Authentication
+
+- 
+## Create App
+```
+docker run --rm \
+-e consumerKey=YOUR_VALUE \
+-e consumerSecret=YOUR_VALUE \
+-e accessToken=YOUR_VALUE \
+-e tokenSecret=YOUR_VALUE \
+jrvs/twitter_app post "The first tweet from Farnaz Towhidi"
+```
+
+## Usage: Post | Delete Tweet
+```
+TwitterApp post [options]
+TwitterAApp post "Tweet text"
+
+TwitterApp delete [options]
+TwitterApp delete Tweet_id1,Tweet_id2"
+```
+
 ## Postman
-1-Delete tweet: Postman->Manage Tweet->Delete a Tweet. The id of tweet should be from user account
-End Point: DELETE /2/tweets/:id
-2-Create Tweet: Postman->Manage Tweet->Create a Tweet. The text of tweet.
-End Point: POST /2/tweets
-Body:
+1. Create Tweet
+* Postman: Manage Tweet->Create a Tweet.
+* END POINT: POST /2/tweets
+2. Delete Tweet
+* Postman: Manage Tweet->Delete a Tweet.
+* End Point: DELETE /2/tweets/:id
+3. Show User
+* Postman: 
 ```
 {
 "text": "Hello World!"
@@ -31,3 +61,5 @@ Body:
 ```
 3-Get Tweet:
 End Point: GET /2/users/me
+
+# Test

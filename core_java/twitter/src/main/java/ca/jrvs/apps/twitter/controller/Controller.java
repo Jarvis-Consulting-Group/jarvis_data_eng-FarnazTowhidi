@@ -25,7 +25,7 @@ public interface Controller {
    * @return a tweet
    * @throws IllegalArgumentException if args are invalid
    */
-  Tweet showTweet(String[] args);
+  Tweet showTweet(String[] args) throws IOException;
 
   /**
    * Parse user argument and delete tweets by calling service classes
