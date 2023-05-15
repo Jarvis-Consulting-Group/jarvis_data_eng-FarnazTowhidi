@@ -34,9 +34,8 @@ public class TwitterDao implements CrdDao<Tweet, String> {
   public Tweet create(Tweet entity)
       throws IOException, OAuthMessageSignerException, OAuthExpectationFailedException, OAuthCommunicationException {
 
-    //HttpResponse response = httpHelper.httpPost(URI.create("https://api.twitter.com/2/tweets"), entity.getText());
     HttpResponse response = httpHelper.httpPost(URI.create(API_BASE_URI + POST_PATH), entity.getText());
-    return parseResponseBody(response, 200);
+    return parseResponseBody(response, 201);
   }
 
 
@@ -56,13 +55,12 @@ public class TwitterDao implements CrdDao<Tweet, String> {
 
   public Tweet parseResponseBody(HttpResponse response, Integer expectedStatusCode)
       throws IOException {
-    Tweet tweet = null;
 
     int status = response.getStatusLine().getStatusCode();
     String jsonStr = EntityUtils.toString(response.getEntity());
-    System.out.println(jsonStr);
     if (status != expectedStatusCode){
       try {
+        //jsonStr = EntityUtils.toString(response.getEntity());
         System.out.println(EntityUtils.toString(response.getEntity()));
       } catch (IOException e) {
         throw new RuntimeException("Response has no Entity",e);
@@ -73,7 +71,7 @@ public class TwitterDao implements CrdDao<Tweet, String> {
       System.out.println("Empty response body");
     }
     //Convert JSON string to Tweet object
-     tweet = JsonUtil.toObjectFromJson(jsonStr,Tweet.class);
+     Tweet tweet = JsonUtil.toObjectFromJson(jsonStr,Tweet.class);
 
     return tweet;
   }
