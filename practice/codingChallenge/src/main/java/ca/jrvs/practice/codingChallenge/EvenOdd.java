@@ -10,9 +10,4 @@ public class EvenOdd {
       return ("odd");
     }
   }
-
-  public static void main(String[] args) {
-    EvenOdd evenOdd = new EvenOdd();
-    System.out.println(evenOdd.EvenOddFunction(141));
-  }
 }
