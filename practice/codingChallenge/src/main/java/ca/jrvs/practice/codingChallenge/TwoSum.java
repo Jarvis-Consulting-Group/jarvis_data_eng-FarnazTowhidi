@@ -23,21 +23,29 @@ public class TwoSum {
 
   }
 
-  public int[] TwoSumMap(int[] nums, int target) {
-    Map<Integer,Integer> numMap = new HashMap<>();
-    for (int i =0; i<nums.length; i++) {
-      numMap.put(target-nums[i],0);
+  public int[] TwoSumMap(int[] numbers, int target) {
+
+    HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
+    for(int i = 0; i < numbers.length; i++){
+
+      Integer diff = (Integer)(target - numbers[i]);
+      if(hash.containsKey(diff)){
+        int toReturn[] = {hash.get(diff), i};
+        //System.out.println(hash.get(1));
+        return toReturn;
+      }
+      System.out.println("number: " + numbers[i]);
+      hash.put(numbers[i], i);
     }
-    System.out.println(numMap);
-    return new int[] {};
+    return null;
   }
 
 
   public static void main(String[] args) {
-    int[] nums = {0,1,2,3};
+    int[] nums = {1,2,3,4};
     TwoSum twoSum = new TwoSum();
     //int[] outputPair = twoSum.TwoSumFunction(nums,3);
-    int[] outputPair1 = twoSum.TwoSumMap(nums,3);
+    int[] outputPair1 = twoSum.TwoSumMap(nums,5);
     System.out.println(Arrays.toString(outputPair1));
   }
 
