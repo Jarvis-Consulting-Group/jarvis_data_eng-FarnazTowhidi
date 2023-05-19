@@ -3,9 +3,8 @@ package ca.jrvs.apps.twitter.dao;
 import ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelper;
 import ca.jrvs.apps.twitter.model.Tweet;
 import junit.framework.TestCase;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
+
 
 public class TwitterDaoTest extends TestCase {
   private static String CONSUMER_KEY="rwMczoM4f2UPnXvT5SwgWPZ7z";
@@ -22,6 +21,19 @@ public class TwitterDaoTest extends TestCase {
     TwitterDao twitterDao = new TwitterDao(twitterHttpHelper);
     Tweet createdTweet = twitterDao.create(tweet);
     System.out.println(createdTweet.getText());
+  }
+
+
+  public void testFindById() {
+  }
+
+  @Test
+  public void testDeleteById() throws Exception {
+    TwitterHttpHelper twitterHttpHelper = new TwitterHttpHelper(CONSUMER_KEY,  CONSUMER_SECRET, ACCESS_TOKEN, TOKEN_SECRET);
+
+    TwitterDao twitterDao = new TwitterDao(twitterHttpHelper);
+    Tweet deletedTweet = twitterDao.deleteById("1659247037592764416");
+    assertNotNull(deletedTweet);
 
   }
 }

@@ -34,8 +34,8 @@ public class TwitterCliApp {
     Controller twitterController = new TwitterController(twitterService);
     TwitterCliApp twitterApp = new TwitterCliApp(twitterController);
 
-    //twitterApp.run(new String[]{"delete", "1657010393619877888,1656331964113207296"});
-    twitterApp.run(new String[]{"post", "test1234"});
+    twitterApp.run(new String[]{"delete", "1659247037592764416,1656331964113207296"});
+    //twitterApp.run(new String[]{"post", "test12345"});
     //twitterApp.run(new String[]{"show", "me"});
   }
 
