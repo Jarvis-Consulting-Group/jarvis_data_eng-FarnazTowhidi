@@ -1,0 +1,26 @@
+
+<p>{{this.message}}</p>
+
+<table class="table-hover table-striped">
+  <thead>
+    <tr>
+      <th colspan="2">Firstname</th>
+      <th>LastName</th>
+      <th>Dob</th>
+      <th>Country</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let person of this.people">
+      <td cellpadding="0" cellspacing="0" class="avatar-cell"></td>
+      <td>{{person.firstName}}</td>
+      <td>{{person.lastName}}</td>
+      <td>{{person.dob}}</td>
+      <td>{{person.country}}</td>
+      <td>{{person.email}}</td>
+      
+    </tr>
+  </tbody>
+</table>
+
