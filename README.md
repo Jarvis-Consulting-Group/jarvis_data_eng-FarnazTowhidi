@@ -1,6 +1,6 @@
 # Farnaz Towhidi . Jarvis Consulting
 
-I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
+I am [[Farnaz Towhidi](farnaztowhidi.com)], a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
 
 ## Skills
 
@@ -53,9 +53,6 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 **Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing. This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
 
 **Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing . (GPA: 3.65/4.0). This thesis is an Enhancement on Passface Graphical Password Authentication.
-
-## Portfolio
-[[Personal Portfolio](farnaztowhidi.com)]
 
 ## Miscellaneous
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
