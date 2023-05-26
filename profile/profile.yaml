@@ -106,7 +106,7 @@ education:
     department: "Faculty of Computing"
     # optional
     awards_achievements:
-      - My thesis creates a dictionary by combination of top down and bottom visual attention of human brain, leads to creates more powerful automated dictionary attack.
+      - This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
   - school_name: "Universiti Teknologi Malaysia"
     duration: "2008-2010"
     degree: "Master of Computer Science (Information Security)"
@@ -114,7 +114,7 @@ education:
     # optional
     awards_achievements:
       - "GPA: 3.65/4.0"
-      - An Enhancement on Passface Graphical Password Authentication.
+      - This thesis is an Enhancement on Passface Graphical Password Authentication.
 
 #Optional section
 others:
