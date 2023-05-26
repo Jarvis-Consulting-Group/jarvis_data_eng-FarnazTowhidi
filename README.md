@@ -1,6 +1,6 @@
 # Farnaz Towhidi . Jarvis Consulting
 
-I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9.There is no end to my education, so I am still learning.
+I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
 
 ## Skills
 
@@ -48,17 +48,19 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Education
-**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing  (GPA: 3.9/4.0).
+**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing
+- GPA: 3.9/4.0
 
-**Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing.
-- My thesis creates a dictionary by combination of top down and bottom visual attention of human brain, leads to creates more powerful automated dictionary attack.
+**Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing
+- My thesis creates a dictionary by combination of top down and bottom visual attention of human brain, leads to more powerful automated dictionary attack.
 
-**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing. (GPA: 3.65/4.0).
-- An Enhancement on Passface Graphical Password Authentication.
+**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing
+- GPA: 3.65/4.0
+- My thesis is an Enhancement method on Passface Graphical Password Authentication.
 
 
 ## Miscellaneous
-- Personal Portfolio: [farnaztowhidi.com]
+- [[Personal Portfolio](FarnazTowhidi.com)]
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
 - Certified Ethical Hacker (CEH), EC-Council
 - Cloud Core, IBM
