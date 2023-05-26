@@ -48,19 +48,16 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Education
-**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing
-- GPA: 3.9/4.0
+**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing. (GPA: 3.9/4.0)
 
-**Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing
-- My thesis creates a dictionary by combination of top down and bottom visual attention of human brain, leads to more powerful automated dictionary attack.
+**Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing. This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
 
-**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing
-- GPA: 3.65/4.0
-- My thesis is an Enhancement method on Passface Graphical Password Authentication.
+**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing . (GPA: 3.65/4.0). This thesis is an Enhancement on Passface Graphical Password Authentication.
 
+## Portfolio
+- farnaztowhidi.com
 
 ## Miscellaneous
-- [[Personal Portfolio](FarnazTowhidi.com)]
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
 - Certified Ethical Hacker (CEH), EC-Council
 - Cloud Core, IBM

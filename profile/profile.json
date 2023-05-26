@@ -11,7 +11,7 @@
     },
     {
       "awards_achievements": [
-        "My thesis creates a dictionary by combination of top down and bottom visual attention of human brain, leads to creates more powerful automated dictionary attack."
+        "This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords."
       ],
       "degree": "PHD of Computer Science",
       "department": "Faculty of Computing",
@@ -21,7 +21,7 @@
     {
       "awards_achievements": [
         "GPA: 3.65/4.0",
-        "An Enhancement on Passface Graphical Password Authentication."
+        "This thesis is an Enhancement on Passface Graphical Password Authentication."
       ],
       "degree": "Master of Computer Science (Information Security)",
       "department": "Faculty of Computing",
@@ -83,7 +83,6 @@
   "others": [
     {
       "bullets": [
-        "Personal Portfolio: farnaztowhidi.com",
         "Computer Hacking Forensics Investigator (CHFI), EC-Council",
         "Certified Ethical Hacker (CEH), EC-Council",
         "Cloud Core, IBM",
