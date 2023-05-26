@@ -12,6 +12,9 @@ I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consul
 
 ## Jarvis Projects
 
+Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi)
+
+
 **Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/master/linux_sql)]: The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.
 
 **RDBMS and SQL** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/master/linux_sql/sql)]: Created SQL queries to retrieve data from multiple tables. A PostgreSQL instance using docker was utilized to load sample data and test the results of the queries. Git was used as version control for the project.
@@ -41,23 +44,21 @@ I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consul
 
 **Full Stack Developer, Canadian Institute of Cybersecurity, Fredericton (2019-2019)**: Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers.
 
-**Full Stack Developer, Biossentials, Kuala Lumpur (2009-2014)**: Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers.
+**Full Stack Developer, Biossentials, Kuala Lumpur (2009-2014)**: Worked closely with a designer to create and deploy a new comprehensive layout that allowed the customers to easily connect with vital information. Improved the quality of company search engine optimization performance. Overhauled the entire structure of the website, create keywords contents, change the naming of files and folder, recommended weekly content, deleting flash and other technologies to gain it
 
 
 ## Education
-**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing
-- GPA: 3.9/4.0
+**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing  (GPA: 3.9/4.0).
 
-**Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing
+**Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing.
 - My thesis creates a dictionary by combination of top down and bottom visual attention of human brain, leads to creates more powerful automated dictionary attack.
 
-**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing
-- GPA: 3.65/4.0
+**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing. (GPA: 3.65/4.0).
 - An Enhancement on Passface Graphical Password Authentication.
 
-## Personal Portfolio
-- http://farnaztowhidi.com/
+
 ## Miscellaneous
+- Personal Portfolio: [farnaztowhidi.com]
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
 - Certified Ethical Hacker (CEH), EC-Council
 - Cloud Core, IBM
@@ -67,4 +68,3 @@ I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consul
 - Tech-ReEntry, IBM
 - Marketing your own Business on Internet, University of Waterloo
 - Effective Selling, University of Waterloo
-- farnaztowhidi.com
