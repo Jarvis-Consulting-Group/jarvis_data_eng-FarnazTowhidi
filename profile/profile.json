@@ -10,7 +10,9 @@
       "school_name": "General Assembly"
     },
     {
-      "awards_achievements": null,
+      "awards_achievements": [
+        "My thesis creates a dictionary by combination of top down and bottom visual attention of human brain, leads to creates more powerful automated dictionary attack."
+      ],
       "degree": "PHD of Computer Science",
       "department": "Faculty of Computing",
       "duration": "2010-2015",
@@ -18,7 +20,8 @@
     },
     {
       "awards_achievements": [
-        "GPA: 3.65/4.0"
+        "GPA: 3.65/4.0",
+        "An Enhancement on Passface Graphical Password Authentication."
       ],
       "degree": "Master of Computer Science (Information Security)",
       "department": "Faculty of Computing",
@@ -84,11 +87,9 @@
     },
     {
       "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "farnaztowhidi.com"
       ],
-      "title": "Activities/Hobbies"
+      "title": "portfolio"
     }
   ],
   "professional_experience": [

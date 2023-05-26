@@ -16,21 +16,21 @@ skills:
     - JavaScript
     - Agile/Scrum
     - MongoDB
+    - Java
     - SQL
+    - Linux/Bash
     - MVC Pattern
   # At least 5 skills
   competent:
-    - OOP
-    - MVC Pattern
     - MERN Infrastructure
     - Oath Authentication
     - REST APIs
+    - Angular
     - Deploy GitHub,Heroku
     - Git, Git Hub
   # At least 5 skills
   familiar:
     - Docker
-    - fermentum
     - TestRail
     - Selenium
     - Jira
@@ -99,6 +99,7 @@ education:
     department: "Faculty of Computing"
     # optional
     awards_achievements:
+      - My thesis creates a dictionary by combination of top down and bottom visual attention of human brain, leads to creates more powerful automated dictionary attack.
   - school_name: "Universiti Teknologi Malaysia"
     duration: "2008-2010"
     degree: "Master of Computer Science (Information Security)"
@@ -106,6 +107,7 @@ education:
     # optional
     awards_achievements:
       - "GPA: 3.65/4.0"
+      - An Enhancement on Passface Graphical Password Authentication.
 
 #Optional section
 others:
@@ -122,8 +124,7 @@ others:
       - "Tech-ReEntry, IBM"
       - "Marketing your own Business on Internet, University of Waterloo"
       - "Effective Selling, University of Waterloo"
-  - title: "Activities/Hobbies"
+  - title: "portfolio"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "farnaztowhidi.com"
+
