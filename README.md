@@ -1,6 +1,6 @@
 # Farnaz Towhidi . Jarvis Consulting
 
-I am [[Farnaz Towhidi](farnaztowhidi.com)], a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
+I am [Farnaz Towhidi](farnaztowhidi.com), a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
 
 ## Skills
 
