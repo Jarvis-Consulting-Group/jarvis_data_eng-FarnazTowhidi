@@ -66,7 +66,17 @@
     {
       "description": "Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.",
       "git_url": "/core_java/jdbc",
-      "name": "Core Java Apps"
+      "name": "JDBC Apps"
+    },
+    {
+      "description": "Similar to the egrep tool this project aims to read all the files in the provided directory and tries to search for the regex expression that has to be searched in the program. The project uses Java, Lambda, Steams and Regular expression for designing and attaining the outputs.",
+      "git_url": "/core_java/grep",
+      "name": "Grep App"
+    },
+    {
+      "description": "Created a Java CRUD application that uses Twitter's REST API v2 to create and manage tweets. The user can create tweets, or delete a list of tweets by ID, all from via CLI. The app sends requests to Twitter's API through HTTP requests in the form of JSON messages, authenticated with OAuth. The architecture used follows the MVC design pattern. The build system used was Maven, and deployment was done through Docker.",
+      "git_url": "/core_java/twitter",
+      "name": "Twitter CRUD App"
     }
   ],
   "name": "Farnaz Towhidi",
@@ -120,27 +130,29 @@
   ],
   "skills": {
     "competent": [
-      "OOP",
-      "MVC Pattern",
       "MERN Infrastructure",
       "Oath Authentication",
       "REST APIs",
+      "Angular",
       "Deploy GitHub,Heroku",
       "Git, Git Hub"
     ],
     "familiar": [
       "Docker",
-      "fermentum",
       "TestRail",
       "Selenium",
-      "Jira"
+      "Jira",
+      ".Net"
     ],
     "proficient": [
       "Html/CSS",
       "JavaScript",
       "Agile/Scrum",
+      "React",
       "MongoDB",
+      "Java",
       "SQL",
+      "Linux/Bash",
       "MVC Pattern"
     ]
   },
