@@ -55,7 +55,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 **Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing . (GPA: 3.65/4.0). This thesis is an Enhancement on Passface Graphical Password Authentication.
 
 ## Portfolio
-- farnaztowhidi.com
+[[Personal Portfolio](farnaztowhidi.com)]
 
 ## Miscellaneous
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
