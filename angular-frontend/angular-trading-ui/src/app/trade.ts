@@ -6,9 +6,7 @@ export class Trade {
     public dob:string,
     public country:string,
     public email:string,
-    public amount:number
-    
-    
-
+    public amount:number,
+    public actions:string
   ){}
 }

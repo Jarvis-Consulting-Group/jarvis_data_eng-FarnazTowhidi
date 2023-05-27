@@ -27,7 +27,7 @@ export class TraderFormComponent {
     country:string=""
     email:string="farnaz@"
     amount:number=0
-  
+    action:string=""
 
   AddTrader() {
     let newTrade:Trade ={
@@ -37,11 +37,10 @@ export class TraderFormComponent {
       dob:this.dob,
       country:this.country,
       email:this.email,
-      amount:this.amount
-      
+      amount:this.amount  ,
+      actions: this.action ,
     }
-    //this.dataSerivce.people= [...this.dataSerivce.people, newTrade];
-    console.log (this.dataSerivce.people);
+    this.dataSerivce.addTrade(newTrade);
     this.router.navigateByUrl('/dashboard');
   }
 }

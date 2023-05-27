@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Trade } from '../app/trade'
 
 @Injectable({
   providedIn: 'root'
@@ -39,14 +40,20 @@ export class DataService {
   constructor() { }
 
   deleteTrader(keyPerson:string){  
-    this.people.forEach((person,index)=> {
-      if (person.key==keyPerson) {
-        this.people.splice(index,1)}
-    });
+    const deleteIndex : number = this.people.findIndex(trader=>trader.key==keyPerson)
+    if(deleteIndex > -1){ 
+      this.people = this.people.filter(trader => trader.key !== keyPerson); 
+    }
+    console.log (this.people)
   }
 
   listTrade() {
     return (this.people);
 
   }
+
+  addTrade(trade:Trade) {
+    this.people= [...this.people, trade];
+  }
+
 }

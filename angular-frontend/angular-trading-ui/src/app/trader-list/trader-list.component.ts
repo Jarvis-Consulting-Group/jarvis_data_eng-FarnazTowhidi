@@ -29,6 +29,11 @@ export class TraderListComponent {
     this.router.navigateByUrl('/addTrade');
   }    
   
+  deleteTrader(key:string) {
+    this.dataService.deleteTrader(key);
+    //this.dataService.listTrade();
+    this.router.navigateByUrl('/dashboard');
+  }
 
 }
 
