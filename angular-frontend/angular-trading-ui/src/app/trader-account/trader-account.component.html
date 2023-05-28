@@ -1,0 +1,19 @@
+<h1>Trader Account</h1>
+<div>
+  <label>First Name</label>
+  <p>{{trader?.firstName}}</p>
+  <label>Last Name</label>
+  <p>{{trader?.lastName}}</p>
+  <label>Email</label>
+  <p>{{trader?.email}}</p>
+  <label>Date of Birth</label>
+  <p>{{trader?.dob}}</p>
+  <label>Country</label>
+  <p>{{trader?.country}}</p>
+  <label>Amount of Fund</label>
+  <p>{{trader?.amount}}</p>
+  <p>
+    <button mat-button [routerLink]="['/deposit/', trader?.key]">Deposit</button>
+    <button mat-button>withdraw</button>
+  </p>
+</div>

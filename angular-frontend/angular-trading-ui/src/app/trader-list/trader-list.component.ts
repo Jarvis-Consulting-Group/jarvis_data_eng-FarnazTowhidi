@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { DataService } from '../data.service';
+import { TraderService } from '../trader.service';
+
 
 
 @Component({
@@ -13,7 +14,7 @@ import { DataService } from '../data.service';
 export class TraderListComponent {
   constructor(
     private router: Router,
-    public dataService: DataService) 
+    public traderSerivce: TraderService) 
   {}
   
   dataSource: any ;
@@ -21,8 +22,8 @@ export class TraderListComponent {
 
 
   ngOnInit() {
-    this.dataSource = this.dataService.listTrade();
-    console.log (this.dataService.listTrade());
+    this.dataSource = this.traderSerivce.listTrade();
+    console.log (this.traderSerivce.listTrade());
   }
 
   NavigateForm() {
@@ -30,14 +31,13 @@ export class TraderListComponent {
   }    
   
   loadTrader () {
-    this.dataSource = this.dataService.listTrade();
-    console.log (this.dataService.listTrade());
+    this.dataSource = this.traderSerivce.listTrade();
+    console.log (this.traderSerivce.listTrade());
   }
 
   deleteTrader(key:string) {
-    this.dataService.deleteTrader(key);
+    this.traderSerivce.deleteTrader(key);
     this.loadTrader()
-    //this.router.navigateByUrl('/dashboard');
   }
 
 }

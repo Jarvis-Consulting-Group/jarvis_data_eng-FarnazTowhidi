@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { Trade } from '../trade';
+import { ITrader } from '../trader';
 import { Router } from '@angular/router';
 import { TraderListComponent } from '../trader-list/trader-list.component';
-import { DataService } from '../data.service';
+import { TraderService } from '../trader.service';
 
 
 @Component({
@@ -16,7 +16,7 @@ export class TraderFormComponent {
 
     private traderList:TraderListComponent,
     private router:Router,
-    private dataSerivce: DataService
+    private traderSerivce: TraderService
     
     ){}
   
@@ -30,7 +30,7 @@ export class TraderFormComponent {
     action:string=""
 
   AddTrader() {
-    let newTrade:Trade ={
+    let newTrade:ITrader ={
       key:this.key,
       firstName:this.firstName,
       lastName:this.lastName,
@@ -40,7 +40,7 @@ export class TraderFormComponent {
       amount:this.amount  ,
       actions: this.action ,
     }
-    this.dataSerivce.addTrade(newTrade);
+    this.traderSerivce.addTrade(newTrade);
     this.router.navigateByUrl('/dashboard');
   }
 }

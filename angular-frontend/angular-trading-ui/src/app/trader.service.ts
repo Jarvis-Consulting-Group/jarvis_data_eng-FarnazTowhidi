@@ -1,11 +1,15 @@
 import { Injectable } from '@angular/core';
-import { Trade } from '../app/trade'
+import { ITrader } from './trader'
+import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
-export class DataService {
-  people=[
+export class TraderService {
+
+  traderId: string=""
+  trader=[
     {
     "key": "1",
     "firstName": "Mike",
@@ -37,23 +41,32 @@ export class DataService {
       "actions": "<button (click)='deleteTrader'>Delete Trader</button>"
   }
   ];
-  constructor() { }
-
+  constructor(private route:ActivatedRoute) { }
+  
   deleteTrader(keyPerson:string){  
-    const deleteIndex : number = this.people.findIndex(trader=>trader.key==keyPerson)
+    const deleteIndex : number = this.trader.findIndex(trader=>trader.key==keyPerson)
     if(deleteIndex > -1){ 
-      this.people = this.people.filter(trader => trader.key !== keyPerson); 
+      this.trader = this.trader.filter(trader => trader.key !== keyPerson); 
     }
-    console.log (this.people)
   }
 
   listTrade() {
-    return (this.people);
-
+    return (this.trader);
   }
 
-  addTrade(trade:Trade) {
-    this.people= [...this.people, trade];
+  addTrade(trade:ITrader) {
+    this.trader= [...this.trader, trade];
   }
 
+  getTraderById (key:string) {
+    return this.trader.find (trader=>trader.key=key)
+  }
+
+  getQueryParams () {
+    this.traderId = this.route.snapshot.params['id']
+    console.log ("Trader Service ID")
+    console.log (this.traderId)
+    console.log (this.route.snapshot.queryParamMap.get('id'))
+    return this.traderId
+  }
 }
