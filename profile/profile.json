@@ -2,136 +2,153 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
+        "GPA: 3.9/4.0"
       ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "degree": "Software Engineering Immersive",
+      "department": "Faculty of Computing",
+      "duration": "2022-2022",
+      "school_name": "General Assembly"
     },
     {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "awards_achievements": [
+        "This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords."
+      ],
+      "degree": "PHD of Computer Science",
+      "department": "Faculty of Computing",
+      "duration": "2010-2015",
+      "school_name": "Universiti Teknologi Malaysia"
+    },
+    {
+      "awards_achievements": [
+        "GPA: 3.65/4.0",
+        "This thesis is an Enhancement on Passface Graphical Password Authentication."
+      ],
+      "degree": "Master of Computer Science (Information Security)",
+      "department": "Faculty of Computing",
+      "duration": "2008-2010",
+      "school_name": "Universiti Teknologi Malaysia"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.",
+      "git_url": "https://github.com/FarnazTowhidi/macDonald",
+      "name": "McDonald's Application"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Group of 4 developers creates a MERN stack application, a responsive single page application. Uploader with the use of AWS S3 buckets and the npm package, \"aws-sdk\". Technologies used, MongoDB, Express, React, Socket.io, Amazon Web Services.",
+      "git_url": "https://github.com/FarnazTowhidi/mern-project",
+      "name": "Chatterbox"
+    },
+    {
+      "description": "Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, PostreSQL.",
+      "git_url": "https://github.com/aerlikh17/track-fit-app",
+      "name": "Track Fit"
+    },
+    {
+      "description": "Solo, 1 week project for the browser base game, using application state, manipulating DOM and includes shuffling and win/loss logic. Technologies used, HTML, CSS and JavaScript.",
+      "git_url": "https://github.com/FarnazTowhidi/warCardGame",
+      "name": "War Card Game"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
+      "description": "Created SQL queries to retrieve data from multiple tables. A PostgreSQL instance using docker was utilized to load sample data and test the results of the queries. Git was used as version control for the project.",
+      "git_url": "/linux_sql/sql",
+      "name": "RDBMS and SQL"
     },
     {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
+      "description": "Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.",
+      "git_url": "/core_java/jdbc",
+      "name": "JDBC Apps"
     },
     {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
+      "description": "Similar to the egrep tool this project aims to read all the files in the provided directory and tries to search for the regex expression that has to be searched in the program. The project uses Java, Lambda, Steams and Regular expression for designing and attaining the outputs.",
+      "git_url": "/core_java/grep",
+      "name": "Grep App"
     },
     {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
+      "description": "Created a Java CRUD application that uses Twitter's REST API v2 to create and manage tweets. The user can create tweets, or delete a list of tweets by ID, all from via CLI. The app sends requests to Twitter's API through HTTP requests in the form of JSON messages, authenticated with OAuth. The architecture used follows the MVC design pattern. The build system used was Maven, and deployment was done through Docker.",
+      "git_url": "/core_java/twitter",
+      "name": "Twitter CRUD App"
     }
   ],
   "name": "Farnaz Towhidi",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
+        "Computer Hacking Forensics Investigator (CHFI), EC-Council",
+        "Certified Ethical Hacker (CEH), EC-Council",
+        "Cloud Core, IBM",
+        "Design and User Experience (D\u0026UX), IBM",
+        "Introduction to Cloud, IBM",
+        "Enterprise Design Thinking Practitioner, IBM",
+        "Tech-ReEntry, IBM",
+        "Marketing your own Business on Internet, University of Waterloo",
+        "Effective Selling, University of Waterloo"
       ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
-      ],
-      "title": "Activities/Hobbies"
+      "title": "Licenses \u0026 Certifications"
     }
   ],
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
-      "title": "Software Developer"
+      "description": "Developed multiple software applications and worked on projects using Java, SQL, Linux Bash, Docker and more. Agile/Scrum was used to collaborate with team and produce minimum viable products. Git was utilized for version control on projects.",
+      "duration": "2023-present",
+      "title": "Technical Consultant"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "IBM ,Fredericton",
+      "description": "Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency",
+      "duration": "2020-2020",
+      "title": "Quality Assurance"
+    },
+    {
+      "company": "Canadian Institute of Cybersecurity, Fredericton",
+      "description": "Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers.",
+      "duration": "2019-2019",
+      "title": "Full Stack Developer"
+    },
+    {
+      "company": "Biossentials, Kuala Lumpur",
+      "description": "Worked closely with a designer to create and deploy a new comprehensive layout that allowed the customers to easily connect with vital information. Improved the quality of company search engine optimization performance. Overhauled the entire structure of the website, create keywords contents, change the naming of files and folder, recommended weekly content, deleting flash and other technologies to gain it",
+      "duration": "2009-2014",
+      "title": "Full Stack Developer"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "MERN Infrastructure",
+      "Oath Authentication",
+      "REST APIs",
+      "Angular",
+      "Deploy GitHub,Heroku",
+      "Git, Git Hub"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "Docker",
+      "TestRail",
+      "Selenium",
+      "Jira",
+      ".Net"
     ],
     "proficient": [
-      "Java",
-      "Linux/Bash",
-      "RDBMS/SQL",
+      "Html/CSS",
+      "JavaScript",
       "Agile/Scrum",
-      "Git"
+      "React",
+      "MongoDB",
+      "Java",
+      "SQL",
+      "Linux/Bash",
+      "MVC Pattern"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning."
 }
