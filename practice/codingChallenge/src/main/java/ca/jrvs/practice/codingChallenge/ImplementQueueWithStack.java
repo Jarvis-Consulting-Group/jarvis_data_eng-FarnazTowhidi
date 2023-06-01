@@ -1,11 +1,9 @@
 package ca.jrvs.practice.codingChallenge;
-
 import java.util.Stack;
-
 /*
-Leetcode 232. Implement Queue using Stacks
+Leetcode 232: Implement Queue using Stacks
 https://leetcode.com/problems/implement-queue-using-stacks/
- */
+*/
 public class ImplementQueueWithStack {
   Stack<Integer> input = new Stack<>();
   Stack<Integer> output = new Stack<>();

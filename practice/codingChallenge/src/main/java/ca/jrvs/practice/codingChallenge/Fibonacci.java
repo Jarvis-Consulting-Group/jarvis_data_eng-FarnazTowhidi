@@ -1,5 +1,8 @@
 package ca.jrvs.practice.codingChallenge;
-
+/*
+leetcode 509: Fibonacci Number
+https://leetcode.com/problems/fibonacci-number/
+ */
 public class Fibonacci {
   private static long[] fiboCash;
 
@@ -16,13 +19,13 @@ public class Fibonacci {
 
   }
 
-  private static long fibonacciDynamicProgramming(int n) {
+  private static long fibonacci_DP(int n) {
     if (n<=1) return n;
 
     if (fiboCash[n] != 0) {
       return fiboCash[n];
     }
-    fiboCash[n]= fibonacciDynamicProgramming(n-1) + fibonacciDynamicProgramming(n-2);
+    fiboCash[n]= fibonacci_DP(n-1) + fibonacci_DP(n-2);
     return fiboCash[n];
   }
 

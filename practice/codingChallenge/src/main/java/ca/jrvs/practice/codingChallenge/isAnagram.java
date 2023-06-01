@@ -1,5 +1,8 @@
 package ca.jrvs.practice.codingChallenge;
-
+/*
+Leetcode 242: Valid Anagram
+https://leetcode.com/problems/valid-anagram/
+*/
 public class isAnagram {
 
   public static boolean isAnagram(String s, String t) {
@@ -13,7 +16,6 @@ public class isAnagram {
         return false;
       }
     }
-
     return true;
   }
 

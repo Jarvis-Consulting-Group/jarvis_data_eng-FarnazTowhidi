@@ -1,9 +1,9 @@
 package ca.jrvs.practice.codingChallenge;
-
 import java.util.LinkedList;
 import java.util.Queue;
 /*
-LeetCode 225: https://leetcode.com/problems/implement-stack-using-queues/
+LeetCode 225: Implement Stack using Queues
+https://leetcode.com/problems/implement-stack-using-queues/
  */
 public class ImplementStackUsingQueue {
   private Queue<Integer> queue = new LinkedList<>();

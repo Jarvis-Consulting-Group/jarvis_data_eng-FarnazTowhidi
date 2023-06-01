@@ -1,4 +1,8 @@
 package ca.jrvs.practice.codingChallenge;
+/*
+Lettcode 65: Valid Number
+https://leetcode.com/problems/valid-number/
+ */
 
 public class StringContainOnlyDigits {
 
@@ -20,7 +24,6 @@ public class StringContainOnlyDigits {
   }
 
   public static void main(String[] args) {
-
     System.out.println(IsDigit("111"));
   }
 }
