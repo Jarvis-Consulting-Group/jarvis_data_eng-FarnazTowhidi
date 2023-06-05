@@ -23,19 +23,16 @@ public class TwoSum {
 
   }
 
-  public int[] TwoSumMap(int[] numbers, int target) {
-
+  public int[] TwoSumMap(int[] nums, int target) {
     HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
-    for(int i = 0; i < numbers.length; i++){
+    for(int i = 0; i < nums.length; i++){
 
-      Integer diff = (Integer)(target - numbers[i]);
+      Integer diff = (Integer)(target - nums[i]);
       if(hash.containsKey(diff)){
         int toReturn[] = {hash.get(diff), i};
-        //System.out.println(hash.get(1));
         return toReturn;
       }
-      System.out.println("number: " + numbers[i]);
-      hash.put(numbers[i], i);
+      hash.put(nums[i], i);
     }
     return null;
   }

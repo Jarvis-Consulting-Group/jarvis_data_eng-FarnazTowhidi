@@ -3,6 +3,7 @@ package ca.jrvs.practice.codingChallenge;
 leetcode 509: Fibonacci Number
 https://leetcode.com/problems/fibonacci-number/
  */
+/*
 public class Fibonacci {
   private static long[] fiboCash;
 
@@ -33,5 +34,5 @@ public class Fibonacci {
     if (n<=1) return n;
     return (fibonachi (n-1) + fibonachi(n-2));
   }
-
 }
+*/
