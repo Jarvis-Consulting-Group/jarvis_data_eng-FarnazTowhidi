@@ -8,7 +8,7 @@ import oauth.signpost.exception.OAuthCommunicationException;
 import oauth.signpost.exception.OAuthExpectationFailedException;
 import oauth.signpost.exception.OAuthMessageSignerException;
 
-
+@org.springframework.stereotype.Controller
 public class TwitterController implements Controller {
   private Service service;
 

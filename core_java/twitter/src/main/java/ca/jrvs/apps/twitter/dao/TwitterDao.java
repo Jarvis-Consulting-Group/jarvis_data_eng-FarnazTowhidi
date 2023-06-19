@@ -4,13 +4,14 @@ import ca.jrvs.apps.twitter.model.Tweet;
 import ca.jrvs.apps.twitter.service.JsonUtil;
 import java.io.IOException;
 import java.net.URI;
-import java.net.URISyntaxException;
 import oauth.signpost.exception.OAuthCommunicationException;
 import oauth.signpost.exception.OAuthExpectationFailedException;
 import oauth.signpost.exception.OAuthMessageSignerException;
 import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class TwitterDao implements CrdDao<Tweet, String> {
   //Path for Post, get and delete
   private static final String API_BASE_URI="https://api.twitter.com";
@@ -32,8 +33,7 @@ public class TwitterDao implements CrdDao<Tweet, String> {
 
   @Override
   public Tweet create(Tweet entity)
-      throws IOException, OAuthMessageSignerException, OAuthExpectationFailedException, OAuthCommunicationException {
-
+      throws OAuthMessageSignerException, OAuthExpectationFailedException, OAuthCommunicationException, IOException {
     HttpResponse response = httpHelper.httpPost(URI.create(API_BASE_URI + POST_PATH), entity.getText());
     return parseResponseBody(response, 201);
   }

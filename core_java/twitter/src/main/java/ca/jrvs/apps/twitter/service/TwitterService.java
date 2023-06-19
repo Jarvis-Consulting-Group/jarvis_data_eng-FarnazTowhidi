@@ -8,6 +8,7 @@ import oauth.signpost.exception.OAuthCommunicationException;
 import oauth.signpost.exception.OAuthExpectationFailedException;
 import oauth.signpost.exception.OAuthMessageSignerException;
 
+@org.springframework.stereotype.Service
 public class TwitterService implements Service{
   private CrdDao dao;
 

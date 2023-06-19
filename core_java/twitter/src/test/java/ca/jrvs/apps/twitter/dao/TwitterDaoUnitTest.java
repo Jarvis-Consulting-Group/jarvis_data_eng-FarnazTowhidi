@@ -44,15 +44,13 @@ public class TwitterDaoUnitTest {
     String tweetJason = "{\"text\": \"" + tweet.getText() + "\"}";
     StringEntity stringEntity = new StringEntity(tweetJason);
 
-
     when(mockHttpEntity.getContent()).thenReturn(stringEntity.getContent());
     when(mockHttpResponse.getEntity()).thenReturn(mockHttpEntity);
     when(mockStatusLine.getStatusCode()).thenReturn(201);
     when(mockHttpResponse.getStatusLine()).thenReturn(mockStatusLine);
     when(mockTwitterHttpHelper.httpPost(URI.create("https://api.twitter.com/2/tweets"),tweet.getText())).thenReturn(mockHttpResponse);
-    twitterDao.create(tweet);
+    Tweet postTweet = twitterDao.create(tweet);
   }
-
   @Test
   public void testDeleteById() throws Exception {
     //TwitterHttpHelper twitterHttpHelper = new TwitterHttpHelper(CONSUMER_KEY,  CONSUMER_SECRET, ACCESS_TOKEN, TOKEN_SECRET);
