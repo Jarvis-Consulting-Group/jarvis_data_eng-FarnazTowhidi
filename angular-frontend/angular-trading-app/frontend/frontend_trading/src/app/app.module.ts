@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { AppRoutingModule } from './app-routing.module';
+import { DashboardComponent } from './components/dashboard/dashboard.component'
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { TraderListComponent } from './components/trader-list/trader-list.component';
 import { TraderFormComponent } from './components/trader-form/trader-form.component';
 import { QuotesListComponent } from './components/quotes-list/quotes-list.component';
@@ -27,10 +28,9 @@ import { DepsitComponent } from './components/depsit/depsit.component';
     NavbarComponent,
     TraderListComponent,
     TraderFormComponent,
-    QuotesListComponent,
     TraderAccountComponent,
-    DepsitComponent,
-    
+    QuotesListComponent,
+    DepsitComponent
   ],
   imports: [
     BrowserModule,
@@ -43,9 +43,9 @@ import { DepsitComponent } from './components/depsit/depsit.component';
     MatIconModule,
     MatInputModule,
     MatFormFieldModule,
-    HttpClientModule
+    RouterModule
   ],
-  providers: [TraderListComponent],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

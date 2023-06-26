@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { TraderFormComponent } from './components/trader-form/trader-form.component';
 import { QuotesListComponent } from './components/quotes-list/quotes-list.component';
 import { TraderAccountComponent } from './components/trader-account/trader-account.component';
 import { DepsitComponent } from './components/depsit/depsit.component';
-
 
 const routes: Routes = [
   {path:'dashboard', component:DashboardComponent},
@@ -19,7 +19,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  declarations: [],
+  imports: [
+    CommonModule,
+    RouterModule.forRoot(routes)
+  ]
 })
 export class AppRoutingModule { }
