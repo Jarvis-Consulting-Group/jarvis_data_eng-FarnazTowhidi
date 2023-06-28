@@ -4,48 +4,12 @@ import Modal from 'react-modal';
 import './Dashboard.scss'
 import axios from 'axios';
 import { createTraderUrl, deleteTraderUrl, tradersUrl } from '../../util/constants'
-
 Modal.setAppElement('#root');
 
 
 export default function Dashboard() {
-  const [traders,setTraders] = useState (
-    [
-     {
-     "key": "1",
-     "id": 1,
-     "firstName": "Mike",
-     "lastName": "Spencer",
-     "dob": "1990-01-01",
-     "country": "Canada",
-     "email": "mike@test.com",
-     "amount": 0,
-     "actions": "<button (click)='deleteTrader'>Delete Trader</button>"
-     },
-     {
-     "key": "2",
-     "id": 2,
-     "firstName": "Hellen",
-     "lastName": "Miller",
-     "dob": "1990-01-01",
-     "country": "Austria",
-     "email": "hellen@test.com",
-     "actions": "<button (click)='deleteTrader'>Delete Trader</button>",
-     "amount": 0
-     },
-     {
-     "key": "3",
-     "id": 3,
-     "firstName": "Jack",
-     "lastName": "Reed",
-     "dob": "1990-01-01",
-     "country": "United Kingdom",
-     "email": "jack@test.com",
-     "actions": "<button (click)='deleteTrader'>Delete Trader</button>",
-     "amount": 0
-     }
-   ]
-   );
+  const [traders,setTraders] = useState (null);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [state, setState] = useState ({
     firstname:"farnaz",
     lastname:"towhidi",
@@ -54,12 +18,27 @@ export default function Dashboard() {
     country: "Iran"
   }
   )
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+
 
   useEffect(() => {
     console.log (traders)
   }, [traders]);
 
+
+  useEffect (()=> {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get (tradersUrl)     
+        if (response.status==200) setTraders(response.data);
+      }
+      catch (error) {
+        console.error(error);
+      }
+    }
+    fetchData();
+  }, [])
+
+  
 
   function openModal() {
     setModalIsOpen(true)
@@ -133,16 +112,10 @@ export default function Dashboard() {
                     
               </Modal>                     
             </div>
-            <TraderList traders={traders} setTraders={setTraders}></TraderList>  
+            { traders && <TraderList traders={traders} setTraders={setTraders}></TraderList>   }
               
         </div>
       </div>
     </div>
-
-
-
-
-
-
   )
 }

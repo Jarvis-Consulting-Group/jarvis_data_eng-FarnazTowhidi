@@ -5,6 +5,7 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+
 export default function TraderList({traders,setTraders}) {
 
 
@@ -29,15 +30,14 @@ function DeleteTrader(id) {
         <TableBody>
           {traders.map((trader) => (
             <TableRow
-              key={trader.key}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+              key={trader?.key}             
              >
-              <TableCell align="right">{trader.firstName}</TableCell>
-              <TableCell align="right">{trader.lastName}</TableCell>
-              <TableCell align="right">{trader.email}</TableCell>
-              <TableCell align="right">{trader.dob}</TableCell>
-              <TableCell align="right">{trader.country}</TableCell>
-              <TableCell align="right"><button onClick={()=>DeleteTrader(trader.id)}>Delete Trader</button></TableCell>
+              <TableCell align="right">{trader?.firstName}</TableCell>
+              <TableCell align="right">{trader?.lastName}</TableCell>
+              <TableCell align="right">{trader?.email}</TableCell>
+              <TableCell align="right">{trader?.dob}</TableCell>
+              <TableCell align="right">{trader?.country}</TableCell>
+              <TableCell align="right"><button onClick={()=>DeleteTrader(trader?.id)}>Delete Trader</button></TableCell>
             </TableRow>
           ))}
         </TableBody>
