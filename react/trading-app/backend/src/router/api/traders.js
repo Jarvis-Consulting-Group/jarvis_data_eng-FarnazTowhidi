@@ -4,9 +4,6 @@ const traderCtrl = require ("../../controller/api/traders")
 
 router.get("/", traderCtrl.getAllTraders);
 router.delete("/:id", traderCtrl.deleteTraders)
-
-
-
-console.log ("this is a Router")
+router.post ("/", traderCtrl.addTrader)
 
 module.exports = router; 

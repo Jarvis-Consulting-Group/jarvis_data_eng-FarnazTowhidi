@@ -5,12 +5,16 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+import axios from 'axios';
+import {deleteTraderUrl } from '../../util/constants'
 
 export default function TraderList({traders,setTraders}) {
 
 
-function DeleteTrader(id) {
-  setTraders ( traders.filter ((trader)=>trader.id!==id));
+async function DeleteTrader(id) {
+  const response = await axios.delete (`${deleteTraderUrl}${id}`) 
+  //setTraders ( traders.filter ((trader)=>trader.id!==id));
+  setTraders ( response.data);
 }
 
   return (
@@ -29,9 +33,7 @@ function DeleteTrader(id) {
         </TableHead>
         <TableBody>
           {traders.map((trader) => (
-            <TableRow
-              key={trader?.key}             
-             >
+            <TableRow key={trader?.key}>
               <TableCell align="right">{trader?.firstName}</TableCell>
               <TableCell align="right">{trader?.lastName}</TableCell>
               <TableCell align="right">{trader?.email}</TableCell>

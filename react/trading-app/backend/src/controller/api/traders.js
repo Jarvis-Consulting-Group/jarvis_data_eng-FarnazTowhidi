@@ -1,4 +1,4 @@
-const trader =    
+let traders =    
   [
      {
      "key": "1",
@@ -34,21 +34,36 @@ const trader =
 
 async function getAllTraders (req,res) {
   try {   
-    res.status(200).json(trader);
+    res.status(200).json(traders);
   }
   catch (error) {
     res.status(500).json(error);
   }
 }
 
-function deleteTraders(req, res) {
-
+async function deleteTraders(req, res) {
+  try {
+    //const newTraders = traders.filter ((trader)=> trader.id!= parseInt(req.params.id));
+    //res.status(200).json(newTraders);
+    traders = traders.filter((trader) => trader.id !== parseInt(req.params.id));
+    res.status(200).json(traders);
+  }
+  catch (error) {
+    res.status(500).json(error)
+  }
 }
+
+async function addTrader (req, res) {
+  const newTraders = [...traders, req.body]
+  console.log (newTraders);
+}
+
 
 function updateTrader (req,res) {}
 
 module.exports = {
   getAllTraders,
   deleteTraders,
+  addTrader,
   updateTrader
 };

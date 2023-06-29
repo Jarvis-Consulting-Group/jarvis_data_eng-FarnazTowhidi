@@ -3,7 +3,7 @@ import TraderList from '../../component/TraderList/TraderList'
 import Modal from 'react-modal';
 import './Dashboard.scss'
 import axios from 'axios';
-import { createTraderUrl, deleteTraderUrl, tradersUrl } from '../../util/constants'
+import { createTraderUrl, deleteTraderUrl,tradersUrl } from '../../util/constants'
 Modal.setAppElement('#root');
 
 
@@ -48,7 +48,7 @@ export default function Dashboard() {
     setState({ ...state, [e.target.name]: e.target.value });
   }
 
-  function handleSubmit (e) {
+  async function handleSubmit (e) {
     e.preventDefault();
     let newTrader = {
       key: "4",
@@ -59,6 +59,8 @@ export default function Dashboard() {
       email: state.email,
       amount: 0,
     }
+    const newTraders = axios.post(createTraderUrl, newTrader)
+    console.log (newTrader)
     setTraders ([...traders, newTrader])
     setModalIsOpen(false);
   }
