@@ -35,6 +35,7 @@ let traders =
 async function getAllTraders (req,res) {
   try {   
     res.status(200).json(traders);
+    console.log(traders)
   }
   catch (error) {
     res.status(500).json(error);
@@ -43,8 +44,6 @@ async function getAllTraders (req,res) {
 
 async function deleteTraders(req, res) {
   try {
-    //const newTraders = traders.filter ((trader)=> trader.id!= parseInt(req.params.id));
-    //res.status(200).json(newTraders);
     traders = traders.filter((trader) => trader.id !== parseInt(req.params.id));
     res.status(200).json(traders);
   }
@@ -54,8 +53,14 @@ async function deleteTraders(req, res) {
 }
 
 async function addTrader (req, res) {
-  const newTraders = [...traders, req.body]
-  console.log (newTraders);
+  try {
+    traders = [...traders, req.body]
+    res.status(200).json(traders);
+  }
+  catch (error) {
+    res.status(500).json(error)
+  }
+  
 }
 
 

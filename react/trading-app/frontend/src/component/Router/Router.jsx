@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from '../../page/Dashboard/Dashboard';
+import QuotePage from '../../page/QuotePage/QuotePage';
 
 
 export default function Router() {
@@ -9,6 +10,7 @@ export default function Router() {
         <Routes>
             <Route exact path="/" element={<Dashboard />} />
             <Route exact path="/dashboard" element={<Dashboard />} />
+            <Route exact path="/quote/" element={<QuotePage />} />
         </Routes>
     </BrowserRouter>
   )

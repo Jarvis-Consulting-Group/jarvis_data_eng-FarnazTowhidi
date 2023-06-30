@@ -15,3 +15,6 @@ app.use(cors());
 
 // routes
 app.use("/api/traders", require("./src/router/api/traders"));
+app.use("/api/quotes", require("./src/router/api/quotes"));
+
+

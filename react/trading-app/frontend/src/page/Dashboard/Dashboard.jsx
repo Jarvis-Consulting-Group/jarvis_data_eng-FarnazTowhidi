@@ -3,7 +3,7 @@ import TraderList from '../../component/TraderList/TraderList'
 import Modal from 'react-modal';
 import './Dashboard.scss'
 import axios from 'axios';
-import { createTraderUrl, deleteTraderUrl,tradersUrl } from '../../util/constants'
+import { createTraderUrl,tradersUrl } from '../../util/constants'
 Modal.setAppElement('#root');
 
 
@@ -21,7 +21,6 @@ export default function Dashboard() {
 
 
   useEffect(() => {
-    console.log (traders)
   }, [traders]);
 
 
@@ -68,15 +67,13 @@ export default function Dashboard() {
   return (
 
     <div className="dashboard">
-
       <div className="dashboard-content">
         <div className="title">
             Dashboard
             <div className="add-trader-button">
               <button onClick={openModal} >Add Trader</button>
               <Modal  
-                isOpen={modalIsOpen}       
-              >
+                isOpen={modalIsOpen} >
                 <h2>Add New Trader</h2>
                   <form>
                     <input type="text"
