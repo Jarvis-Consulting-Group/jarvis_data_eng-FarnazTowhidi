@@ -1,12 +1,12 @@
 # Farnaz Towhidi . Jarvis Consulting
 
-I am [Farnaz Towhidi](farnaztowhidi.com), a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
+I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
 
 ## Skills
 
-**Proficient:** Html/CSS, JavaScript, Agile/Scrum, React, MongoDB, Java, SQL, Linux/Bash, MVC Pattern
+**Proficient:** Html/CSS, JavaScript, React, Angular, MongoDB, Java, SQL, Linux/Bash, MVC Pattern, Agile/Scrum
 
-**Competent:** MERN Infrastructure, Oath Authentication, REST APIs, Angular, Deploy GitHub,Heroku, Git, Git Hub
+**Competent:** MERN Infrastructure, Oath Authentication, REST APIs, Deploy GitHub,Heroku, Git, Git Hub
 
 **Familiar:** Docker, TestRail, Selenium, Jira, .Net
 
@@ -15,7 +15,7 @@ I am [Farnaz Towhidi](farnaztowhidi.com), a new hire at Jarvis Consulting Group 
 Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/master/linux_sql)]: The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.
+**Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/masterhttps://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/linux_sql)]: The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.
 
 **RDBMS and SQL** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/master/linux_sql/sql)]: Created SQL queries to retrieve data from multiple tables. A PostgreSQL instance using docker was utilized to load sample data and test the results of the queries. Git was used as version control for the project.
 
@@ -48,11 +48,16 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Education
-**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing. (GPA: 3.9/4.0)
+**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing
+- GPA: 3.9/4.0
 
-**Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing. This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
+**Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing
+- This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
 
-**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing . (GPA: 3.65/4.0). This thesis is an Enhancement on Passface Graphical Password Authentication.
+**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing
+- GPA: 3.65/4.0
+- This thesis is an Enhancement on Passface Graphical Password Authentication.
+
 
 ## Miscellaneous
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
@@ -60,7 +65,4 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 - Cloud Core, IBM
 - Design and User Experience (D&UX), IBM
 - Introduction to Cloud, IBM
-- Enterprise Design Thinking Practitioner, IBM
 - Tech-ReEntry, IBM
-- Marketing your own Business on Internet, University of Waterloo
-- Effective Selling, University of Waterloo
