@@ -14,19 +14,19 @@ skills:
   proficient:
     - Html/CSS
     - JavaScript
-    - Agile/Scrum
     - React
+    - Angular
     - MongoDB
     - Java
     - SQL
     - Linux/Bash
     - MVC Pattern
+    - Agile/Scrum
   # At least 5 skills
   competent:
     - MERN Infrastructure
     - Oath Authentication
     - REST APIs
-    - Angular
     - Deploy GitHub,Heroku
     - Git, Git Hub
   # At least 5 skills
@@ -40,7 +40,7 @@ skills:
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
-    git_url: "/linux_sql"
+    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/linux_sql"
     description:  The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.
   - name: "RDBMS and SQL"
     git_url: "/linux_sql/sql"
@@ -127,10 +127,8 @@ others:
       - "Cloud Core, IBM"
       - "Design and User Experience (D&UX), IBM"
       - "Introduction to Cloud, IBM"
-      - "Enterprise Design Thinking Practitioner, IBM"
       - "Tech-ReEntry, IBM"
-      - "Marketing your own Business on Internet, University of Waterloo"
-      - "Effective Selling, University of Waterloo"
+
 
 
 

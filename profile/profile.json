@@ -55,7 +55,7 @@
   "jarvis_projects": [
     {
       "description": "The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.",
-      "git_url": "/linux_sql",
+      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/linux_sql",
       "name": "Cluster Monitor"
     },
     {
@@ -88,10 +88,7 @@
         "Cloud Core, IBM",
         "Design and User Experience (D\u0026UX), IBM",
         "Introduction to Cloud, IBM",
-        "Enterprise Design Thinking Practitioner, IBM",
-        "Tech-ReEntry, IBM",
-        "Marketing your own Business on Internet, University of Waterloo",
-        "Effective Selling, University of Waterloo"
+        "Tech-ReEntry, IBM"
       ],
       "title": "Licenses \u0026 Certifications"
     }
@@ -127,7 +124,6 @@
       "MERN Infrastructure",
       "Oath Authentication",
       "REST APIs",
-      "Angular",
       "Deploy GitHub,Heroku",
       "Git, Git Hub"
     ],
@@ -141,13 +137,14 @@
     "proficient": [
       "Html/CSS",
       "JavaScript",
-      "Agile/Scrum",
       "React",
+      "Angular",
       "MongoDB",
       "Java",
       "SQL",
       "Linux/Bash",
-      "MVC Pattern"
+      "MVC Pattern",
+      "Agile/Scrum"
     ]
   },
   "summary": "I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning."
