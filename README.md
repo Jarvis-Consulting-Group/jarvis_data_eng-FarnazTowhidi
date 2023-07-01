@@ -62,5 +62,3 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 - Introduction to Cloud, IBM
 - Enterprise Design Thinking Practitioner, IBM
 - Tech-ReEntry, IBM
-- Marketing your own Business on Internet, University of Waterloo
-- Effective Selling, University of Waterloo
