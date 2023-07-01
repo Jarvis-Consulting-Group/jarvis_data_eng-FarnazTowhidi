@@ -23,7 +23,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Grep App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/core_java/grep)]: Similar to the egrep tool this project aims to read all the files in the provided directory and tries to search for the regex expression that has to be searched in the program. The project uses Java, Lambda, Steams and Regular expression for designing and attaining the outputs.
 
-**Twitter CRUD App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/core_java/twitter)]: Created a Java CRUD application that uses Twitter's REST API v2 to create and manage tweets. The user can create tweets, or delete a list of tweets by ID, all from via CLI. The app sends requests to Twitter's API through HTTP requests in the form of JSON messages, authenticated with OAuth. The architecture used follows the MVC design pattern. The build system used was Maven, and deployment was done through Docker.
+**Twitter CRUD App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/feature/twitter/core_java/twitter)]: Created a Java CRUD application that uses Twitter's REST API v2 to create and manage tweets. The user can create tweets, or delete a list of tweets by ID, all from via CLI. The app sends requests to Twitter's API through HTTP requests in the form of JSON messages, authenticated with OAuth. The architecture used follows the MVC design pattern. The build system used was Maven, and deployment was done through Docker.
 
 
 ## Highlighted Projects
