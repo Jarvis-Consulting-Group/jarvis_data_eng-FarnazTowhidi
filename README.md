@@ -27,20 +27,20 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Highlighted Projects
-**McDonald's Application** [[GitHub](https://github.com/FarnazTowhidi/macDonald)]: Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.
+**McDonald's Application** [[GitHub](https://github.com/FarnazTowhidi/macDonald)]: Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node, MongoDB, and Python.
 
-**Chatterbox** [[GitHub](https://github.com/FarnazTowhidi/mern-project)]: Group of 4 developers creates a MERN stack application, a responsive single page application. Uploader with the use of AWS S3 buckets and the npm package, "aws-sdk". Technologies used, MongoDB, Express, React, Socket.io, Amazon Web Services.
+**Chatterbox** [[GitHub](https://github.com/FarnazTowhidi/mern-project)]: Group of 4 developers creates a MERN stack responsive, single page application in a week. Uploader with AWS S3 buckets,npm package, and "aws-sdk". Technologies used, MongoDB, Express, React, Socket.io, and Amazon Web Services.
 
-**Track Fit** [[GitHub](https://github.com/aerlikh17/track-fit-app)]: Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, PostreSQL.
+**Track Fit** [[GitHub](https://github.com/aerlikh17/track-fit-app)]: Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, and PostreSQL.
 
 **War Card Game** [[GitHub](https://github.com/FarnazTowhidi/warCardGame)]: Solo, 1 week project for the browser base game, using application state, manipulating DOM and includes shuffling and win/loss logic. Technologies used, HTML, CSS and JavaScript.
 
 
 ## Professional Experiences
 
-**Technical Consultant, Jarvis (2023-present)**: Developed multiple software applications and worked on projects using Java, SQL, Linux Bash, Docker and more. Agile/Scrum was used to collaborate with team and produce minimum viable products. Git was utilized for version control on projects.
+**Technical Consultant, Jarvis (2023-present)**: Developed multiple software applications and projects using Java, SQL, Linux Bash, Docker and more. Agile/Scrum was used to collaborate with team and produce minimum viable products. In addition Git was utilized for version control on projects.
 
-**Quality Assurance, IBM ,Fredericton (2020-2020)**: Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency
+**Quality Assurance, IBM ,Fredericton (2020-2020)**: Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency.
 
 **Full Stack Developer, Canadian Institute of Cybersecurity, Fredericton (2019-2019)**: Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers.
 
@@ -52,7 +52,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing. This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
 
-**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing . (GPA: 3.65/4.0). This thesis is an Enhancement on Passface Graphical Password Authentication.
+**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing. (GPA: 3.65/4.0). This thesis is an Enhancement on Passface Graphical Password Authentication.
 
 ## Miscellaneous
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
