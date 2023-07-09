@@ -40,6 +40,8 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Technical Consultant, Jarvis (2023-present)**: Developed multiple software applications and projects using Java, SQL, Linux Bash, Docker and more. Agile/Scrum was used to collaborate with team and produce minimum viable products. In addition Git was utilized for version control on projects.
 
+**Frontend Developer, Iranian Iron & Steel Institute of Education (2021-2022)**: Implemented a website for workshops on Metallurgical and Materials engineering, designed and created ease of use in the scheduling and resourcing components for the company adding additional value and reducing complexity in client proves.
+
 **Quality Assurance, IBM ,Fredericton (2020-2020)**: Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency.
 
 **Full Stack Developer, Canadian Institute of Cybersecurity, Fredericton (2019-2019)**: Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers.
