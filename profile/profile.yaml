@@ -5,33 +5,31 @@ github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
+summary: I am Farnaz, a technical consultant at Jarvis Consulting Group. I completed my master's and PhD in computer science at UTM University. My research demonstrated the vulnerability of graphical password authentication to dictionary attacks by aggregation of regions within an image that exhibit low-level properties in conjunction with their neighboring regions. The result of attacking with this dictionary revealed that hot-spot are the main security flaws in graphical passwords. The findings of my research have been elegantly captured in two book publications available on Amazon; Graphical Password An Alternative to Textual Password and Graphical User Authentication (GUA) Graphical Password Algorithms and Analysis."
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Html/CSS
     - JavaScript
+    - Java
     - React
     - Angular
+    - Linux bash scripting
+    - Node.js
     - MongoDB
-    - Java
     - SQL
-    - Linux/Bash
-    - MVC Pattern
-    - Agile/Scrum
   # At least 5 skills
   competent:
-    - MERN Infrastructure
-    - Oath Authentication
     - REST APIs
-    - Deploy GitHub,Heroku
-    - Git, Git Hub
+    - Docker
+    - Git
+    - Html/CSS
+    - Agile/Scrum
   # At least 5 skills
   familiar:
-    - Docker
+    - OAuth
     - TestRail
     - Selenium
     - Jira
