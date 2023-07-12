@@ -54,14 +54,9 @@
   ],
   "jarvis_projects": [
     {
-      "description": "The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.",
+      "description": "This project is used by the Jarvis Linux Cluster administrator (LCA) team to manage server nodes in a closed network. The bash script collected the hardware specs of each server (hostname, CPU architecture, CPU model, and L2 cache) as well as real time resource usage (CPU idle, kernel statistics and available disk space). The PostgreSQL Docker container Configured and maintained to store and manage the collected data.To ensure accurate and up-to-date information, resource usage is fetched at regular intervals using Crontab.",
       "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": "Created SQL queries to retrieve data from multiple tables. A PostgreSQL instance using docker was utilized to load sample data and test the results of the queries. Git was used as version control for the project.",
-      "git_url": "/linux_sql/sql",
-      "name": "RDBMS and SQL"
     },
     {
       "description": "Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.",
@@ -83,12 +78,12 @@
   "others": [
     {
       "bullets": [
+        "Published on Amazon: Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis",
+        "Published on Amazon: Graphical Password An Alternative to Textual Password",
         "Computer Hacking Forensics Investigator (CHFI), EC-Council",
         "Certified Ethical Hacker (CEH), EC-Council",
         "Cloud Core, IBM",
-        "Design and User Experience (D\u0026UX), IBM",
-        "Introduction to Cloud, IBM",
-        "Tech-ReEntry, IBM"
+        "Design and User Experience (D\u0026UX), IBM"
       ],
       "title": "Licenses \u0026 Certifications"
     }
@@ -145,5 +140,5 @@
       "SQL"
     ]
   },
-  "summary": "I am Farnaz, a technical consultant at Jarvis Consulting Group. I completed my master's and PhD in computer science at UTM University. My research demonstrated the vulnerability of graphical password authentication to dictionary attacks by aggregation of regions within an image that exhibit low-level properties in conjunction with their neighboring regions. The result of attacking with this dictionary revealed that hot-spot are the main security flaws in graphical passwords. The findings of my research have been elegantly captured in two book publications available on Amazon; Graphical Password An Alternative to Textual Password and Graphical User Authentication (GUA) Graphical Password Algorithms and Analysis.\""
+  "summary": "I am Farnaz, a technical consultant at Jarvis Consulting Group. I completed my master's and PhD in computer science at UTM University. My research demonstrated the vulnerability of graphical password authentication to dictionary attacks by aggregation of regions within an image that exhibit low-level properties in conjunction with their neighboring regions. The result of attacking with this dictionary revealed that hot-spot are the main security flaws in graphical passwords. The findings of my research have been elegantly captured in two book publications available on Amazon.\""
 }
