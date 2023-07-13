@@ -86,13 +86,13 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Developed multiple software applications and worked on projects using Java, SQL, Linux Bash, Docker and more. Agile/Scrum was used to collaborate with team and produce minimum viable products. Git was utilized for version control on projects.",
+      "description": "I have joined Jarvis as a technical consultant to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various project backlogs like ‘Twitter Java App’, ‘Grep Java App’, ‘Linux Cluster Monitor App’ , and ‘Angular Trading App’. At Jarvis, I have gained exposure to various technologies commonly used in professional technical environments, such as Java, RDBMS, Linux, Docker, SpringBoot, React, Angular, Hadoop, and much more.",
       "duration": "2023-present",
       "title": "Technical Consultant"
     },
     {
       "company": "IBM ,Fredericton",
-      "description": "Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency",
+      "description": "I joined IBM as a Tech-reentry in the Security Intelligence team, where I had the opportunity to learn about QRadar. QRadar is an enterprise security information and event management product designed to collect log data from various sources, including network devices, host assets, operating systems, applications, and user activities and behaviors. Through this experience, I gained knowledge on how QRadar efficiently analyzes the log data and network flows to identify malicious activities. As part of my role as a QA, I was responsible for both automation and manual testing, utilizing tools such as Selenium WebDriver. I collaborated closely with the team to ensure thorough testing of QRadar, validating its functionalities and detecting any potential issues. Additionally, I worked extensively with Jenkins jobs during the QRadar patch release, ensuring smooth and efficient deployment.",
       "duration": "2020-2020",
       "title": "Quality Assurance"
     },
