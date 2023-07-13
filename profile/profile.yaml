@@ -56,12 +56,9 @@ highlighted_projects:
   - name: "Chatterbox"
     git_url: "https://github.com/FarnazTowhidi/mern-project"
     description: I have developed "Chatterbox," an instant messaging application with a Client-Server architecture that enables real-time communication between users. In this single-page application, the client-side scripting is implemented using React and Material-UI (MUI), providing a seamless and intuitive user interface. To handle data storage and manipulation, CRUD requests are sent to the server through API calls using Express.js and MongoDB. The application leverages Socket.io to achieve the functionality of instant messaging, enabling users to engage in real-time conversations. Additionally, the aws-sdk package is utilized to facilitate the smooth uploading of images to Amazon Web Service (AWS) S3 buckets. This allows users to easily share and display images within the application. Lastly, the project is deployed to Heroku, ensuring that Chatterbox is accessible and available to users on a reliable hosting platform. 
-  - name: "McDonald's Application"
-    git_url: "https://github.com/FarnazTowhidi/macDonald"
-    description: Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.
   - name: "Track Fit"
     git_url: "https://github.com/aerlikh17/track-fit-app"
-    description: Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, PostreSQL.
+    description: Track Fit is a Python-based Django Web Framework designed for individuals to track their fitness journey. With Django's built-in authentication, users can securely authenticate and manage their daily exercises in a PostgreSQL database. The framework also provides yearly reports grouped by month for insightful analysis. Deployment is seamless through Heroku, ensuring easy accessibility and availability for users.
   - name: "War Card Game"
     git_url: "https://github.com/FarnazTowhidi/warCardGame"
     description: Solo, 1 week project for the browser base game, using application state, manipulating DOM and includes shuffling and win/loss logic. Technologies used, HTML, CSS and JavaScript.

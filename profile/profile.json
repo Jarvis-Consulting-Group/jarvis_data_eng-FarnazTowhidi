@@ -37,12 +37,7 @@
       "name": "Chatterbox"
     },
     {
-      "description": "Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.",
-      "git_url": "https://github.com/FarnazTowhidi/macDonald",
-      "name": "McDonald's Application"
-    },
-    {
-      "description": "Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, PostreSQL.",
+      "description": "Track Fit is a Python-based Django Web Framework designed for individuals to track their fitness journey. With Django's built-in authentication, users can securely authenticate and manage their daily exercises in a PostgreSQL database. The framework also provides yearly reports grouped by month for insightful analysis. Deployment is seamless through Heroku, ensuring easy accessibility and availability for users.",
       "git_url": "https://github.com/aerlikh17/track-fit-app",
       "name": "Track Fit"
     },
