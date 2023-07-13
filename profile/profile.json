@@ -32,14 +32,14 @@
   "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi",
   "highlighted_projects": [
     {
+      "description": "I have developed \"Chatterbox,\" an instant messaging application with a Client-Server architecture that enables real-time communication between users. In this single-page application, the client-side scripting is implemented using React and Material-UI (MUI), providing a seamless and intuitive user interface. To handle data storage and manipulation, CRUD requests are sent to the server through API calls using Express.js and MongoDB. The application leverages Socket.io to achieve the functionality of instant messaging, enabling users to engage in real-time conversations. Additionally, the aws-sdk package is utilized to facilitate the smooth uploading of images to Amazon Web Service (AWS) S3 buckets. This allows users to easily share and display images within the application. Lastly, the project is deployed to Heroku, ensuring that Chatterbox is accessible and available to users on a reliable hosting platform.",
+      "git_url": "https://github.com/FarnazTowhidi/mern-project",
+      "name": "Chatterbox"
+    },
+    {
       "description": "Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.",
       "git_url": "https://github.com/FarnazTowhidi/macDonald",
       "name": "McDonald's Application"
-    },
-    {
-      "description": "Group of 4 developers creates a MERN stack application, a responsive single page application. Uploader with the use of AWS S3 buckets and the npm package, \"aws-sdk\". Technologies used, MongoDB, Express, React, Socket.io, Amazon Web Services.",
-      "git_url": "https://github.com/FarnazTowhidi/mern-project",
-      "name": "Chatterbox"
     },
     {
       "description": "Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, PostreSQL.",
@@ -54,24 +54,24 @@
   ],
   "jarvis_projects": [
     {
-      "description": "This project is used by the Jarvis Linux Cluster Administrator (LCA) team to manage server nodes in a closed network. The bash script collected the hardware specs of each server (hostname, CPU architecture, CPU model, and L2 cache) as well as real time resource usage (CPU idle, kernel statistics and available disk space). The PostgreSQL Docker container Configured and maintained to store and manage the collected data.To ensure accurate and up-to-date information, resource usage is fetched at regular intervals using Crontab.",
+      "description": "I have developed an MVC application that allows users to create and delete tweets on Twitter using the Twitter REST API v2. The application follows a layered architecture with four components; Model, Controller, Service, and Data Access. The Controller layer handles client input and calls the service layer to handle the business logic. The service layer interacts with the Data Access Object for communication with the Twitter REST API. This enables actions such as posting, showing, and deleting tweets. To ensure the quality of the code, integration and unit testing are performed using the Mockito and JUnit4 libraries. To authenticate with the Twitter API, the application utilizes the OAuth 1.0a protocol, which includes the necessary credentials in the HTTP Authorization header. For easy distribution and deployment, the project is packaged into a Docker image and published on Docker Hub. In addition, the spring boot framework is used to manage dependencies.",
+      "git_url": "/core_java/twitter",
+      "name": "Twitter CRUD App"
+    },
+    {
+      "description": "This project is used by the Jarvis Linux Cluster Administrator (LCA) team to manage server nodes in a closed network. The bash script collected the hardware specs of each server  like host name, CPU architecture, CPU model, and L2 cache as well as real time resource usage of each server like CPU idle, kernel statistics and available disk space. The PostgreSQL Docker container configured and maintained to store and manage the collected data.To ensure accurate and up-to-date information, resource usage is fetched at regular intervals using Crontab.",
       "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/linux_sql",
       "name": "Cluster Monitor"
+    },
+    {
+      "description": "This project simulatered the egrep text processing tool, enabling recursive searches of a given directory using regular expressions. The BufferedReader class is used to read the file, and regular expressions are applied to compare words against the provided regex pattern. The identified words are saved to an output file using the FileWriter class. Additionally, the project was re-implemented using Lambda and Stream APIs to write code in a more readable functional programming style. Maven is utilized for dependency management, specifically for incorporating slf4j and log4j for logging purposes.",
+      "git_url": "/core_java/grep",
+      "name": "Grep App"
     },
     {
       "description": "Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.",
       "git_url": "/core_java/jdbc",
       "name": "JDBC Apps"
-    },
-    {
-      "description": "This project simulatered the functionality of the egrep text processing tool, enabling recursive searches of a given directory using regular expressions. The BufferedReader class is used to read the file, and regular expressions are applied to compare words against the provided regex pattern. The identified words are then saved to an output file using the FileWriter class. Additionally, the project was re-implemented using Lambda and Stream APIs to write code in a more readable functional programming style. Maven is utilized for dependency management, specifically for incorporating slf4j and log4j for logging purposes.",
-      "git_url": "/core_java/grep",
-      "name": "Grep App"
-    },
-    {
-      "description": "Created a Java CRUD application that uses Twitter's REST API v2 to create and manage tweets. The user can create tweets, or delete a list of tweets by ID, all from via CLI. The app sends requests to Twitter's API through HTTP requests in the form of JSON messages, authenticated with OAuth. The architecture used follows the MVC design pattern. The build system used was Maven, and deployment was done through Docker.",
-      "git_url": "/core_java/twitter",
-      "name": "Twitter CRUD App"
     }
   ],
   "name": "Farnaz Towhidi",
