@@ -10,6 +10,8 @@ Modal.setAppElement('#root');
 export default function Dashboard() {
   const [traders,setTraders] = useState (null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [isValidEmail, setIsValidEmail] = useState(true);
+
   const [state, setState] = useState ({
     firstname:"farnaz",
     lastname:"towhidi",
@@ -37,7 +39,10 @@ export default function Dashboard() {
     fetchData();
   }, [])
 
-  
+  function validateEmail (email) {
+    const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+    return emailRegex.test(email);
+  };
 
   function openModal() {
     setModalIsOpen(true)
@@ -49,8 +54,18 @@ export default function Dashboard() {
 
   async function handleSubmit (e) {
     e.preventDefault();
+    if (state.firstname=='' || state.lastname=='' || state.email==''|| state.country==''|| state.dob=='') {
+      alert('Please fill in all required fields.');
+      return;
+    }
+
+    if (!validateEmail(state.email)) {
+      alert('Please correct the Email formate.');
+      return;
+    }
+
     let newTrader = {
-      key: "4",
+      key: "14",
       firstName: state.firstname,
       lastName: state.lastname,
       dob: state.dob,
