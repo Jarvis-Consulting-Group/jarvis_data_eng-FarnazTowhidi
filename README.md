@@ -42,7 +42,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Full Stack Developer, Canadian Institute of Cybersecurity, Fredericton (2019-2019) [[site](https://pstnet.ca/)]**: The PST website is a forum designed for researchers worldwide to share their latest work in privacy, security, and trust. It is organized annually by the University of New Brunswick and the Canadian Institute for Cybersecurity. The website features a responsive design created using ASP, Bootstrap, HTML, and CSS. It provides various sections including a 'Call for Papers' to invite submissions, a 'Paper Registration' section for authors, and an archive of previous conferences.
 
-**Full Stack Developer, Biossentials, Kuala Lumpur (2009-2014)**: I redesigned the Biossentials website to prioritize SEO improvement. I focused on creating engaging content, optimizing relevant keywords, improving site structure, integrating social media, and enhancing user experience. The website was developed using ASP, HTML, and CSS, ensuring a professional and seamless online presence.
+**Full Stack Developer, Biossentials, Kuala Lumpur (2009-2014) [[site](https://www.biossentials.com/)]**: I redesigned the Biossentials website to prioritize SEO improvement. I focused on creating engaging content, optimizing relevant keywords, improving site structure, integrating social media, and enhancing user experience. The website was developed using ASP, HTML, and CSS, ensuring a professional and seamless online presence.
 
 
 ## Education
