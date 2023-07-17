@@ -3,12 +3,9 @@ name: "Farnaz Towhidi"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi
 
-# Introduce yourself, your academic and professional background.
-# What excites you about the software industry and your passion. At least 80 words
 summary: I am Farnaz, a technical consultant at Jarvis Consulting Group. I completed my master's and PhD in computer science at UTM University. My research demonstrated the vulnerability of graphical password authentication to dictionary attacks by aggregation of regions within an image that exhibit low-level properties in conjunction with their neighboring regions. The result of attacking with this dictionary revealed that hot-spot are the main security flaws in graphical passwords. The findings of my research have been elegantly captured in two book available on Amazon."
 
 # Group your skills by level.
-# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
