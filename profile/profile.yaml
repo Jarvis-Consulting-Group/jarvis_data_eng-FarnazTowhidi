@@ -3,7 +3,7 @@ name: "Farnaz Towhidi"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi
 
-summary: I am Farnaz, a technical consultant at Jarvis Consulting Group. I completed my master's and PhD in computer science at UTM University. My research demonstrated the vulnerability of graphical password authentication to dictionary attacks by aggregation of regions within an image that exhibit low-level properties in conjunction with their neighboring regions. The result of attacking with this dictionary revealed that hot-spot are the main security flaws in graphical passwords. The findings of my research have been elegantly captured in two book available on Amazon."
+summary: As a Junior Software Engineer at Jarvis Consulting Group, I bring a strong academic background and practical skills gained through both my PhD research and completion of the General Assembly software immersive bootcamp. My academic journey includes earning a master's and PhD in computer science from UTM University, where my research focused on demonstrating the vulnerability of graphical password authentication to dictionary attacks. Specifically, my research investigated the aggregation of regions within an image that exhibit low-level properties and their impact on security. Through this academic pursuit, I authored two books available on Amazon that comprehensively capture the findings of my research. However, recognizing the importance of practical and technical skills in the software engineering industry, I decided to complement my academic expertise with hands-on experience. This led me to enroll in the General Assembly software immersive bootcamp, where I gained proficiency in a range of programming languages and frameworks, including Java, JavaScript/TypeScript, React, Angular, Next.js, MongoDB, and Django. Additionally, I honed my skills in utilizing essential tools such as Git, Docker, and agile methodologies during the bootcamp.
 
 # Group your skills by level.
 skills:
@@ -50,6 +50,9 @@ jarvis_projects:
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
+  - name: "A new method of dictionary attack on cued graphical password"
+    git_url: ""
+    description: As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of cue-based graphical password to dictionary attack.   This model analysis an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that used to attack actual passwords of users. The model used Matlab for color detection, Html for user interface and Sql Server for database of passwords.
   - name: "Chatterbox"
     git_url: "https://github.com/FarnazTowhidi/mern-project"
     description: I have developed "Chatterbox," an instant messaging application with a Client-Server architecture that enables real-time communication between users. In this single-page application, the client-side scripting is implemented using React and Material-UI (MUI), providing a seamless and intuitive user interface. To handle data storage and manipulation, CRUD requests are sent to the server through API calls using Express.js and MongoDB. The application leverages Socket.io to achieve the functionality of instant messaging, enabling users to engage in real-time conversations. Additionally, the aws-sdk package is utilized to facilitate the smooth uploading of images to Amazon Web Service (AWS) S3 buckets. This allows users to easily share and display images within the application. Lastly, the project is deployed to Heroku, ensuring that Chatterbox is accessible and available to users on a reliable hosting platform. 
@@ -64,10 +67,10 @@ highlighted_projects:
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
-  - title: "Technical Consultant"
+  - title: "Software Engineer"
     company: "Jarvis"
     duration: "2023-present"
-    description: "I have joined Jarvis as a technical consultant to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various project backlogs like ‘Twitter Java App’, ‘Grep Java App’, ‘Linux Cluster Monitor App’ , and ‘Angular Trading App’. At Jarvis, I have gained exposure to various technologies commonly used in professional technical environments, such as Java, RDBMS, Linux, Docker, SpringBoot, React, and Angular."
+    description: "I have joined Jarvis as a Junior Software Engineer to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various project backlogs like ‘Twitter Java App’, ‘Grep Java App’, ‘Linux Cluster Monitor App’ , and ‘Angular Trading App’. At Jarvis, I have gained exposure to various technologies commonly used in professional technical environments, such as Java, RDBMS, Linux, Docker, SpringBoot, React, and Angular."
   - title: "Full Stack Developer"
     company: "Iranian Iron & Steel Institute of Education, Remote"
     duration: "2021-2022"
