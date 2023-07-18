@@ -1,6 +1,6 @@
 # Farnaz Towhidi . Jarvis Consulting
 
-I am Farnaz, a technical consultant at Jarvis Consulting Group. I completed my master's and PhD in computer science at UTM University. My research demonstrated the vulnerability of graphical password authentication to dictionary attacks by aggregation of regions within an image that exhibit low-level properties in conjunction with their neighboring regions. The result of attacking with this dictionary revealed that hot-spot are the main security flaws in graphical passwords. The findings of my research have been elegantly captured in two book available on Amazon."
+I am [Farnaz](http://farnaztowhidi.com), a technical consultant at Jarvis Consulting Group. I completed my master's and PhD in computer science at UTM University. My research demonstrated the vulnerability of graphical password authentication to dictionary attacks by aggregation of regions within an image that exhibit low-level properties in conjunction with their neighboring regions. The result of attacking with this dictionary revealed that hot-spot are the main security flaws in graphical passwords. The findings of my research have been elegantly captured in two book available on Amazon."
 
 ## Skills
 
@@ -46,20 +46,16 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Education
-**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing
-- GPA: 3.9/4.0
+**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing, GPA: 3.9/4.0
 
 **Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing
-- This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
 
-**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing
-- GPA: 3.65/4.0
-- This thesis is an Enhancement on Passface Graphical Password Authentication.
+**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing, GPA: 3.65/4.0
 
 
 ## Miscellaneous
-- [Published on Amazon](https://www.amazon.ca/Graphical-Password-Alternative-Textual-ebook/dp/B01343DVSM/ref=sr_1_2?crid=1XD4DTN9AE0I9&keywords=farnaz+towhidi&qid=1689566121&sprefix=farnaz+towhidi%2Caps%2C78&sr=8-2): Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis
-- [Published on Amazon](https://www.amazon.ca/Graphical-User-Authentication-GUA-Algorithms/dp/3843380724/ref=sr_1_1?crid=1XD4DTN9AE0I9&keywords=farnaz+towhidi&qid=1689566293&sprefix=farnaz+towhidi%2Caps%2C78&sr=8-1): Graphical Password An Alternative to Textual Password
+- Published on Amazon [[Book]](https://www.amazon.ca/Graphical-Password-Alternative-Textual-ebook/dp/B01343DVSM/ref=sr_1_2?crid=1XD4DTN9AE0I9&keywords=farnaz+towhidi&qid=1689566121&sprefix=farnaz+towhidi%2Caps%2C78&sr=8-2): Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis
+- Published on Amazon [[Book]](https://www.amazon.ca/Graphical-User-Authentication-GUA-Algorithms/dp/3843380724/ref=sr_1_1?crid=1XD4DTN9AE0I9&keywords=farnaz+towhidi&qid=1689566293&sprefix=farnaz+towhidi%2Caps%2C78&sr=8-1): Graphical Password An Alternative to Textual Password
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
 - Certified Ethical Hacker (CEH), EC-Council
 - Cloud Core, IBM

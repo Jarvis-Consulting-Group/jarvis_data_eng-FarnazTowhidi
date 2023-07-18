@@ -38,30 +38,28 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Software Engineer, Jarvis (2023-present)**: I have joined Jarvis as a Junior Software Engineer to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various project backlogs like ‘Twitter Java App’, ‘Grep Java App’, ‘Linux Cluster Monitor App’ , and ‘Angular Trading App’. At Jarvis, I have gained exposure to various technologies commonly used in professional technical environments, such as Java, RDBMS, Linux, Docker, SpringBoot, React, and Angular.
 
-**Full Stack Developer, Iranian Iron & Steel Institute of Education, Remote (2021-2022)**: Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, html and bootstrape, ensuring a user-friendly experience for all users.
+**Full Stack Developer, Iranian Iron & Steel Institute of Education, Remote (2021-2022) [[site]](http://www.iisie.net/)**: Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, html and bootstrape, ensuring a user-friendly experience for all users.
 
 **Quality Assurance, IBM, Fredericton (2020-2020)**: I joined IBM as a Tech-reentry in the Security Intelligence team, where I had the opportunity to learn about QRadar. QRadar is an enterprise security information and event management product designed to collect log data from various sources, including network devices, host assets, operating systems, applications, and user activities and behaviors. Through this experience, I gained knowledge on how QRadar efficiently analyzes the log data and network flows to identify malicious activities. As part of my role as a QA, I was responsible for both automation and manual testing, utilizing tools such as Selenium WebDriver. While testing QRadar, I validating its functionalities and detecting any potential issues. Additionally, I worked extensively with Jenkins jobs during the QRadar patch release, ensuring smooth and efficient deployment.
 
-**Full Stack Developer, Canadian Institute of Cybersecurity, Fredericton (2019-2019)**: The PST website is a forum designed for researchers worldwide to share their latest work in privacy, security, and trust. It is organized annually by the University of New Brunswick and the Canadian Institute for Cybersecurity. The website features a responsive design created using ASP, Bootstrap, HTML, and CSS. It provides various sections including a 'Call for Papers' to invite submissions, a 'Paper Registration' section for authors, and an archive of previous conferences.
+**Full Stack Developer, Canadian Institute of Cybersecurity, Fredericton (2019-2019) [[site](https://pstnet.ca/)]**: The PST website is a forum designed for researchers worldwide to share their latest work in privacy, security, and trust. It is organized annually by the University of New Brunswick and the Canadian Institute for Cybersecurity. The website features a responsive design created using ASP, Bootstrap, HTML, and CSS. It provides various sections including a 'Call for Papers' to invite submissions, a 'Paper Registration' section for authors, and an archive of previous conferences.
 
-**Full Stack Developer, Biossentials, Kuala Lumpur (2009-2014)**: I redesigned the Biossentials website to prioritize SEO improvement. I focused on creating engaging content, optimizing relevant keywords, improving site structure, integrating social media, and enhancing user experience. The website was developed using ASP, HTML, and CSS, ensuring a professional and seamless online presence.
+**Full Stack Developer, Biossentials, Kuala Lumpur (2009-2014) [[site](https://www.biossentials.com/)]**: I redesigned the Biossentials website to prioritize SEO improvement. I focused on creating engaging content, optimizing relevant keywords, improving site structure, integrating social media, and enhancing user experience. The website was developed using ASP, HTML, and CSS, ensuring a professional and seamless online presence.
 
 
 ## Education
-**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing
-- GPA: 3.9/4.0
+**General Assembly (2022-2022)**, Software Engineering Immersive, Faculty of Computing, GPA: 3.9/4.0
 
 **Universiti Teknologi Malaysia (2010-2015)**, PHD of Computer Science, Faculty of Computing
-- This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
 
-**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing
-- GPA: 3.65/4.0
-- This thesis is an Enhancement on Passface Graphical Password Authentication.
+**Universiti Teknologi Malaysia (2008-2010)**, Master of Computer Science (Information Security), Faculty of Computing, GPA: 3.65/4.0
+
 
 
 ## Miscellaneous
-- Published on Amazon: Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis
-- Published on Amazon: Graphical Password An Alternative to Textual Password
+- Published on Amazon [[Book]](https://www.amazon.ca/Graphical-Password-Alternative-Textual-ebook/dp/B01343DVSM/ref=sr_1_2?crid=1XD4DTN9AE0I9&keywords=farnaz+towhidi&qid=1689566121&sprefix=farnaz+towhidi%2Caps%2C78&sr=8-2): Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis
+- Published on Amazon [[Book]](https://www.amazon.ca/Graphical-User-Authentication-GUA-Algorithms/dp/3843380724/ref=sr_1_1?crid=1XD4DTN9AE0I9&keywords=farnaz+towhidi&qid=1689566293&sprefix=farnaz+towhidi%2Caps%2C78&sr=8-1): Graphical Password An Alternative to Textual Password
+- [Personal Website](http://farnaztowhidi.com)
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
 - Certified Ethical Hacker (CEH), EC-Council
 - Cloud Core, IBM
