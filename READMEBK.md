@@ -56,6 +56,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 ## Miscellaneous
 - Published on Amazon [[Book]](https://www.amazon.ca/Graphical-Password-Alternative-Textual-ebook/dp/B01343DVSM/ref=sr_1_2?crid=1XD4DTN9AE0I9&keywords=farnaz+towhidi&qid=1689566121&sprefix=farnaz+towhidi%2Caps%2C78&sr=8-2): Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis
 - Published on Amazon [[Book]](https://www.amazon.ca/Graphical-User-Authentication-GUA-Algorithms/dp/3843380724/ref=sr_1_1?crid=1XD4DTN9AE0I9&keywords=farnaz+towhidi&qid=1689566293&sprefix=farnaz+towhidi%2Caps%2C78&sr=8-1): Graphical Password An Alternative to Textual Password
+- [Farnaz Towhidi Personal Website](http://farnaztowhidi.com/)
 - Computer Hacking Forensics Investigator (CHFI), EC-Council
 - Certified Ethical Hacker (CEH), EC-Council
 - Cloud Core, IBM
