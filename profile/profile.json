@@ -10,9 +10,7 @@
       "school_name": "General Assembly"
     },
     {
-      "awards_achievements": [
-        "This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords."
-      ],
+      "awards_achievements": null,
       "degree": "PHD of Computer Science",
       "department": "Faculty of Computing",
       "duration": "2010-2015",
@@ -32,7 +30,7 @@
   "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi",
   "highlighted_projects": [
     {
-      "description": "As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of cue-based graphical password to dictionary attack.   This model analysis an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that used to attack actual passwords of users. The model used Matlab for color detection, HTML for user interface and Sql Server for database of passwords.",
+      "description": "As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of a cue-based graphical passwords to dictionary attack.   This model analyze an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that were used to attack actual passwords of users. The model used Matlab for color detection, HTML for user interface and SQL Server for databases of passwords.",
       "git_url": "",
       "name": "A new method of dictionary attack on cued graphical password"
     },
@@ -47,9 +45,9 @@
       "name": "Track Fit"
     },
     {
-      "description": "Solo, 1 week project for the browser base game, using application state, manipulating DOM and includes shuffling and win/loss logic. Technologies used, HTML, CSS and JavaScript.",
+      "description": "I simulated the card game war with Vanilla JavaScript, HTML and CSS. The JavaScript used to implement the game logic to handle shuffling the deck, dealing cards to players, comparing card values, determining the round winner, and managing the game state. More over JavaScript used to interact with the DOM to update the game's visual elements when playing rounds, displaying cards, and declaring a winner.",
       "git_url": "https://github.com/FarnazTowhidi/warCardGame",
-      "name": "War Card Game"
+      "name": "Card Game War"
     }
   ],
   "jarvis_projects": [
@@ -64,7 +62,7 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": "This project simulatered the egrep text processing tool, enabling recursive searches of a given directory using regular expressions. The BufferedReader class is used to read the file, and regular expressions are applied to compare words against the provided regex pattern. The identified words are saved to an output file using the FileWriter class. Additionally, the project was re-implemented using Lambda and Stream APIs to write code in a more readable functional programming style. Maven is utilized for dependency management, specifically for incorporating slf4j and log4j for logging purposes.",
+      "description": "This project simulatered the egrep text processing tool, enabling recursive searches of a given directory using regular expressions. The BufferedReader class is used to read the file, and regular expressions are applied to compare words against the provided regex pattern. The identified words are saved to an output file using the FileWriter class. Additionally, the project was re-implemented using Lambda and Stream APIs to write code in a more readable functional programming style, as well as processing large files. Maven is utilized for dependency management, specifically for incorporating slf4j and log4j for logging purposes.",
       "git_url": "/core_java/grep",
       "name": "Grep App"
     },
@@ -78,8 +76,8 @@
   "others": [
     {
       "bullets": [
-        "Published on Amazon: Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis",
-        "Published on Amazon: Graphical Password An Alternative to Textual Password",
+        "Authored: Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis",
+        "Authored: Graphical Password An Alternative to Textual Password",
         "Computer Hacking Forensics Investigator (CHFI), EC-Council",
         "Certified Ethical Hacker (CEH), EC-Council",
         "Cloud Core, IBM",
@@ -91,25 +89,25 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "I have joined Jarvis as a Junior Software Engineer to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various project backlogs like ‘Twitter Java App’, ‘Grep Java App’, ‘Linux Cluster Monitor App’ , and ‘Angular Trading App’. At Jarvis, I have gained exposure to various technologies commonly used in professional technical environments, such as Java, RDBMS, Linux, Docker, SpringBoot, React, and Angular.",
+      "description": "I have joined Jarvis as a Junior Software Engineer to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various projectusing Java, RDBMS, Linux, Docker, SpringBoot, React, and Angular.",
       "duration": "2023-present",
       "title": "Software Engineer"
     },
     {
       "company": "Iranian Iron \u0026 Steel Institute of Education, Remote",
-      "description": "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, HTML and bootstrape, ensuring a user-friendly experience for all users.",
+      "description": "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, HTML and bootstrap, ensuring a user-friendly experience for all users.",
       "duration": "2021-2022",
       "title": "Full Stack Developer"
     },
     {
       "company": "IBM, Fredericton",
-      "description": "I joined IBM as a Tech-reentry in the Security Intelligence team, where I had the opportunity to learn about QRadar. QRadar is an enterprise security information and event management product designed to collect log data from various sources, including network devices, host assets, operating systems, applications, and user activities and behaviors. Through this experience, I gained knowledge on how QRadar efficiently analyzes the log data and network flows to identify malicious activities. As part of my role as a QA, I was responsible for both automation and manual testing, utilizing tools such as Selenium WebDriver. While testing QRadar, I validating its functionalities and detecting any potential issues. Additionally, I worked extensively with Jenkins jobs during the QRadar patch release, ensuring smooth and efficient deployment.",
+      "description": "I joined IBM as a Tech-reentry in the Security Intelligence team, where I had the opportunity to learn about QRadar. Through this experience, I gained knowledge on how QRadar efficiently analyzes the log data and network flows to identify malicious activities. As part of my role as a QA, I was responsible for both automation and manual testing, utilizing tools such as Selenium WebDriver. While testing QRadar, I validating its functionalities and detecting any potential issues. Additionally, I worked extensively with Jenkins jobs during the QRadar patch release, ensuring smooth and efficient deployment.",
       "duration": "2020-2020",
       "title": "Quality Assurance"
     },
     {
       "company": "Canadian Institute of Cybersecurity, Fredericton",
-      "description": "The PST website is a forum designed for researchers worldwide to share their latest work in privacy, security, and trust. It is organized annually by the University of New Brunswick and the Canadian Institute for Cybersecurity. The website features a responsive design created using ASP, Bootstrap, HTML, and CSS. It provides various sections including a 'Call for Papers' to invite submissions, a 'Paper Registration' section for authors, and an archive of previous conferences.",
+      "description": "I designed and implemented the PST website, a forum that designed for researchers worldwide to share their latest work in privacy, security, and trust. It is organized annually by the University of New Brunswick and the Canadian Institute for Cybersecurity. The website features a responsive design created using ASP, Bootstrap, HTML, and CSS. It provides various sections including a 'Call for Papers' to invite submissions, a 'Paper Registration' section for authors, and an archive of previous conferences.",
       "duration": "2019-2019",
       "title": "Full Stack Developer"
     },

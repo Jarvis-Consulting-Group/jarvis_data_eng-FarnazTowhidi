@@ -52,7 +52,7 @@ jarvis_projects:
 highlighted_projects:
   - name: "A new method of dictionary attack on cued graphical password"
     git_url: ""
-    description: As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of cue-based graphical password to dictionary attack.   This model analysis an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that used to attack actual passwords of users. The model used Matlab for color detection, HTML for user interface and Sql Server for database of passwords.
+    description: As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of a cue-based graphical passwords to dictionary attack.   This model analyze an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that were used to attack actual passwords of users. The model used Matlab for color detection, HTML for user interface and SQL Server for databases of passwords.
   - name: "Chatterbox"
     git_url: "https://github.com/FarnazTowhidi/mern-project"
     description: I have developed "Chatterbox," an instant messaging application with a Client-Server architecture that enables real-time communication between users. In this single-page application, the client-side scripting is implemented using React and Material-UI (MUI), providing a seamless and intuitive user interface. To handle data storage and manipulation, CRUD requests are sent to the server through API calls using Express.js and MongoDB. The application leverages Socket.io to achieve the functionality of instant messaging, enabling users to engage in real-time conversations. Additionally, the aws-sdk package is utilized to facilitate the smooth uploading of images to Amazon Web Service (AWS) S3 buckets. This allows users to easily share and display images within the application. Lastly, the project is deployed to Heroku, ensuring that Chatterbox is accessible and available to users on a reliable hosting platform. 
@@ -74,15 +74,15 @@ professional_experience:
   - title: "Full Stack Developer"
     company: "Iranian Iron & Steel Institute of Education, Remote"
     duration: "2021-2022"
-    description: "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, HTML and bootstrape, ensuring a user-friendly experience for all users."  
+    description: "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, HTML and bootstrap, ensuring a user-friendly experience for all users."  
   - title: "Quality Assurance"
     company: "IBM, Fredericton"
     duration: "2020-2020"
-    description: "I joined IBM as a Tech-reentry in the Security Intelligence team, where I had the opportunity to learn about QRadar. QRadar is an enterprise security information and event management product designed to collect log data from various sources, including network devices, host assets, operating systems, applications, and user activities and behaviors. Through this experience, I gained knowledge on how QRadar efficiently analyzes the log data and network flows to identify malicious activities. As part of my role as a QA, I was responsible for both automation and manual testing, utilizing tools such as Selenium WebDriver. While testing QRadar, I validating its functionalities and detecting any potential issues. Additionally, I worked extensively with Jenkins jobs during the QRadar patch release, ensuring smooth and efficient deployment."
+    description: "I joined IBM as a Tech-reentry in the Security Intelligence team, where I had the opportunity to learn about QRadar. Through this experience, I gained knowledge on how QRadar efficiently analyzes the log data and network flows to identify malicious activities. As part of my role as a QA, I was responsible for both automation and manual testing, utilizing tools such as Selenium WebDriver. While testing QRadar, I validating its functionalities and detecting any potential issues. Additionally, I worked extensively with Jenkins jobs during the QRadar patch release, ensuring smooth and efficient deployment."
   - title: "Full Stack Developer"
     company: "Canadian Institute of Cybersecurity, Fredericton"
     duration: "2019-2019"
-    description: "The PST website is a forum designed for researchers worldwide to share their latest work in privacy, security, and trust. It is organized annually by the University of New Brunswick and the Canadian Institute for Cybersecurity. The website features a responsive design created using ASP, Bootstrap, HTML, and CSS. It provides various sections including a 'Call for Papers' to invite submissions, a 'Paper Registration' section for authors, and an archive of previous conferences."
+    description: "I designed and implemented the PST website, a forum that designed for researchers worldwide to share their latest work in privacy, security, and trust. It is organized annually by the University of New Brunswick and the Canadian Institute for Cybersecurity. The website features a responsive design created using ASP, Bootstrap, HTML, and CSS. It provides various sections including a 'Call for Papers' to invite submissions, a 'Paper Registration' section for authors, and an archive of previous conferences."
   - title: "Full Stack Developer"
     company: "Biossentials, Kuala Lumpur"
     duration: "2009-2014"
@@ -103,7 +103,6 @@ education:
     department: "Faculty of Computing"
     # optional
     awards_achievements:
-      - This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
   - school_name: "Universiti Teknologi Malaysia"
     duration: "2008-2010"
     degree: "Master of Computer Science (Information Security)"
@@ -119,8 +118,8 @@ others:
   - title: "Licenses & Certifications"
     #list of items
     bullets:
-      - "Published on Amazon: Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis" 
-      - "Published on Amazon: Graphical Password An Alternative to Textual Password" 
+      - "Authored: Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis" 
+      - "Authored: Graphical Password An Alternative to Textual Password" 
       - "Computer Hacking Forensics Investigator (CHFI), EC-Council"
       - "Certified Ethical Hacker (CEH), EC-Council"
       - "Cloud Core, IBM"
