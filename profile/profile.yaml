@@ -3,7 +3,7 @@ name: "Farnaz Towhidi"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi
 
-summary: As a Junior Software Engineer at Jarvis Consulting Group, I bring a strong academic background and practical skills gained through both my PhD research and completion of the General Assembly software immersive bootcamp. My academic journey includes earning a master's and PhD in computer science from UTM University, where my research focused on demonstrating the vulnerability of graphical password authentication to dictionary attacks. Specifically, my research investigated the aggregation of regions within an image that exhibit low-level properties and their impact on security. Through this academic pursuit, I authored two books available on Amazon that comprehensively capture the findings of my research. However, recognizing the importance of practical and technical skills in the software engineering industry, I decided to complement my academic expertise with hands-on experience. This led me to enroll in the General Assembly software immersive bootcamp, where I gained proficiency in a range of programming languages and frameworks, including Java, JavaScript/TypeScript, React, Angular, Next.js, MongoDB, and Django. Additionally, I honed my skills in utilizing essential tools such as Git, Docker, and agile methodologies during the bootcamp.
+summary: As a Junior Software Engineer at Jarvis Consulting Group, I bring practical skills and a strong academic background gained through both through completion of the General Assembly software immersive bootcamp and my PhD research. My academic journey includes earning a master's and PhD in computer science from UTM University, where my research focused on demonstrating the vulnerability of graphical password authentication to dictionary attacks. Specifically, my research investigated the aggregation of regions within an image that exhibit low-level properties and their impact on security.  However, recognizing the importance of practical and technical skills in the software engineering industry, I decided to complement my academic expertise with hands-on experience. This led me to enroll in the General Assembly software immersive bootcamp, where I gained proficiency in a range of programming languages and frameworks, including Java, JavaScript/TypeScript, React, Angular, Next.js, MongoDB, and Django. Additionally, I honed my skills in utilizing essential tools such as Git, Docker, and agile methodologies during the bootcamp.
 
 # Group your skills by level.
 skills:
@@ -13,7 +13,7 @@ skills:
     - Java
     - React
     - Angular
-    - Linux bash scripting
+    - Bash
     - Node.js
     - MongoDB
     - SQL
@@ -22,7 +22,7 @@ skills:
     - REST APIs
     - Docker
     - Git
-    - Html/CSS
+    - HTML/CSS
     - Agile/Scrum
   # At least 5 skills
   familiar:
@@ -36,13 +36,13 @@ skills:
 jarvis_projects:
   - name: "Twitter CRUD App"
     git_url: "/core_java/twitter"
-    description: I have developed an MVC application that allows users to create and delete tweets on Twitter using the Twitter REST API v2. The application follows a layered architecture with four components; Model, Controller, Service, and Data Access. The Controller layer handles client input and calls the service layer to handle the business logic. The service layer interacts with the Data Access Object for communication with the Twitter REST API. This enables actions such as posting, showing, and deleting tweets. To ensure the quality of the code, integration and unit testing are performed using the Mockito and JUnit4 libraries. To authenticate with the Twitter API, the application utilizes the OAuth 1.0a protocol, which includes the necessary credentials in the HTTP Authorization header. For easy distribution and deployment, the project is packaged into a Docker image and published on Docker Hub. In addition, the spring boot framework is used to manage dependencies.
+    description: I have developed an MVC application that allows users to create and delete tweets on Twitter using the Twitter REST API v2. The application follows a layered architecture with four components; model, controller, service, and data access. The Controller layer handles client input and calls the service layer to handle the business logic. The service layer interacts with the Data Access Object for communication with the Twitter REST API. This enables actions such as posting, showing, and deleting tweets. To ensure the quality of the code, integration and unit testing are performed using the Mockito and JUnit4 libraries. To authenticate with the Twitter API, the application utilizes the OAuth 1.0a protocol, which includes the necessary credentials in the HTTP Authorization header. For easy distribution and deployment, the project is packaged into a Docker image and published on Docker Hub. In addition, the spring boot framework is used to manage dependencies.
   - name: "Cluster Monitor"
     git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/linux_sql"
-    description: This project is used by the Jarvis Linux Cluster Administrator (LCA) team to manage server nodes in a closed network. The bash script collected the hardware specs of each server  like host name, CPU architecture, CPU model, and L2 cache as well as real time resource usage of each server like CPU idle, kernel statistics and available disk space. The PostgreSQL Docker container configured and maintained to store and manage the collected data.To ensure accurate and up-to-date information, resource usage is fetched at regular intervals using Crontab.
+    description: This project is used by the Jarvis Linux Cluster Administrator (LCA) team to manage server nodes in a closed network. A series of bash scripts collects the hardware specs of each server like host name, CPU architecture, CPU model, and L2 cache as well as real time resource usage of each server like CPU idle, kernel statistics and available disk space. The PostgreSQL Docker container configured and maintained to store and manage the collected data. To ensure accurate and up-to-date information, resource usage is fetched at regular intervals using Crontab.
   - name: "Grep App"
     git_url: "/core_java/grep"
-    description: This project simulatered the egrep text processing tool, enabling recursive searches of a given directory using regular expressions. The BufferedReader class is used to read the file, and regular expressions are applied to compare words against the provided regex pattern. The identified words are saved to an output file using the FileWriter class. Additionally, the project was re-implemented using Lambda and Stream APIs to write code in a more readable functional programming style. Maven is utilized for dependency management, specifically for incorporating slf4j and log4j for logging purposes.
+    description: This project simulatered the egrep text processing tool, enabling recursive searches of a given directory using regular expressions. The BufferedReader class is used to read the file, and regular expressions are applied to compare words against the provided regex pattern. The identified words are saved to an output file using the FileWriter class. Additionally, the project was re-implemented using Lambda and Stream APIs to write code in a more readable functional programming style, as well as processing large files. Maven is utilized for dependency management, specifically for incorporating slf4j and log4j for logging purposes.
   - name: "JDBC Apps"
     git_url: "/core_java/jdbc"
     description: Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.
@@ -52,16 +52,16 @@ jarvis_projects:
 highlighted_projects:
   - name: "A new method of dictionary attack on cued graphical password"
     git_url: ""
-    description: As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of cue-based graphical password to dictionary attack.   This model analysis an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that used to attack actual passwords of users. The model used Matlab for color detection, Html for user interface and Sql Server for database of passwords.
+    description: As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of cue-based graphical password to dictionary attack.   This model analysis an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that used to attack actual passwords of users. The model used Matlab for color detection, HTML for user interface and Sql Server for database of passwords.
   - name: "Chatterbox"
     git_url: "https://github.com/FarnazTowhidi/mern-project"
     description: I have developed "Chatterbox," an instant messaging application with a Client-Server architecture that enables real-time communication between users. In this single-page application, the client-side scripting is implemented using React and Material-UI (MUI), providing a seamless and intuitive user interface. To handle data storage and manipulation, CRUD requests are sent to the server through API calls using Express.js and MongoDB. The application leverages Socket.io to achieve the functionality of instant messaging, enabling users to engage in real-time conversations. Additionally, the aws-sdk package is utilized to facilitate the smooth uploading of images to Amazon Web Service (AWS) S3 buckets. This allows users to easily share and display images within the application. Lastly, the project is deployed to Heroku, ensuring that Chatterbox is accessible and available to users on a reliable hosting platform. 
   - name: "Track Fit"
     git_url: "https://github.com/aerlikh17/track-fit-app"
     description: Track Fit is a Python-based Django Web Framework designed for individuals to track their fitness journey. With Django's built-in authentication, users can securely authenticate and manage their daily exercises in a PostgreSQL database. The framework also provides yearly reports grouped by month for insightful analysis. Deployment is seamless through Heroku, ensuring easy accessibility and availability for users.
-  - name: "War Card Game"
+  - name: "Card Game War"
     git_url: "https://github.com/FarnazTowhidi/warCardGame"
-    description: Solo, 1 week project for the browser base game, using application state, manipulating DOM and includes shuffling and win/loss logic. Technologies used, HTML, CSS and JavaScript.
+    description: I simulated the card game war with Vanilla JavaScript, HTML and CSS. The JavaScript used to implement the game logic to handle shuffling the deck, dealing cards to players, comparing card values, determining the round winner, and managing the game state. More over JavaScript used to interact with the DOM to update the game's visual elements when playing rounds, displaying cards, and declaring a winner.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -70,11 +70,11 @@ professional_experience:
   - title: "Software Engineer"
     company: "Jarvis"
     duration: "2023-present"
-    description: "I have joined Jarvis as a Junior Software Engineer to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various project backlogs like ‘Twitter Java App’, ‘Grep Java App’, ‘Linux Cluster Monitor App’ , and ‘Angular Trading App’. At Jarvis, I have gained exposure to various technologies commonly used in professional technical environments, such as Java, RDBMS, Linux, Docker, SpringBoot, React, and Angular."
+    description: "I have joined Jarvis as a Junior Software Engineer to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various projectusing Java, RDBMS, Linux, Docker, SpringBoot, React, and Angular."
   - title: "Full Stack Developer"
     company: "Iranian Iron & Steel Institute of Education, Remote"
     duration: "2021-2022"
-    description: "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, html and bootstrape, ensuring a user-friendly experience for all users."  
+    description: "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, HTML and bootstrape, ensuring a user-friendly experience for all users."  
   - title: "Quality Assurance"
     company: "IBM, Fredericton"
     duration: "2020-2020"

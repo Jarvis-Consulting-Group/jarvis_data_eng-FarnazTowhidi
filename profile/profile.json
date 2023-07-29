@@ -32,7 +32,7 @@
   "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi",
   "highlighted_projects": [
     {
-      "description": "As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of cue-based graphical password to dictionary attack.   This model analysis an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that used to attack actual passwords of users. The model used Matlab for color detection, Html for user interface and Sql Server for database of passwords.",
+      "description": "As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of cue-based graphical password to dictionary attack.   This model analysis an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that used to attack actual passwords of users. The model used Matlab for color detection, HTML for user interface and Sql Server for database of passwords.",
       "git_url": "",
       "name": "A new method of dictionary attack on cued graphical password"
     },
@@ -54,12 +54,12 @@
   ],
   "jarvis_projects": [
     {
-      "description": "I have developed an MVC application that allows users to create and delete tweets on Twitter using the Twitter REST API v2. The application follows a layered architecture with four components; Model, Controller, Service, and Data Access. The Controller layer handles client input and calls the service layer to handle the business logic. The service layer interacts with the Data Access Object for communication with the Twitter REST API. This enables actions such as posting, showing, and deleting tweets. To ensure the quality of the code, integration and unit testing are performed using the Mockito and JUnit4 libraries. To authenticate with the Twitter API, the application utilizes the OAuth 1.0a protocol, which includes the necessary credentials in the HTTP Authorization header. For easy distribution and deployment, the project is packaged into a Docker image and published on Docker Hub. In addition, the spring boot framework is used to manage dependencies.",
+      "description": "I have developed an MVC application that allows users to create and delete tweets on Twitter using the Twitter REST API v2. The application follows a layered architecture with four components; model, controller, service, and data access. The Controller layer handles client input and calls the service layer to handle the business logic. The service layer interacts with the Data Access Object for communication with the Twitter REST API. This enables actions such as posting, showing, and deleting tweets. To ensure the quality of the code, integration and unit testing are performed using the Mockito and JUnit4 libraries. To authenticate with the Twitter API, the application utilizes the OAuth 1.0a protocol, which includes the necessary credentials in the HTTP Authorization header. For easy distribution and deployment, the project is packaged into a Docker image and published on Docker Hub. In addition, the spring boot framework is used to manage dependencies.",
       "git_url": "/core_java/twitter",
       "name": "Twitter CRUD App"
     },
     {
-      "description": "This project is used by the Jarvis Linux Cluster Administrator (LCA) team to manage server nodes in a closed network. The bash script collected the hardware specs of each server  like host name, CPU architecture, CPU model, and L2 cache as well as real time resource usage of each server like CPU idle, kernel statistics and available disk space. The PostgreSQL Docker container configured and maintained to store and manage the collected data.To ensure accurate and up-to-date information, resource usage is fetched at regular intervals using Crontab.",
+      "description": "This project is used by the Jarvis Linux Cluster Administrator (LCA) team to manage server nodes in a closed network. A series of bash scripts collects the hardware specs of each server like host name, CPU architecture, CPU model, and L2 cache as well as real time resource usage of each server like CPU idle, kernel statistics and available disk space. The PostgreSQL Docker container configured and maintained to store and manage the collected data. To ensure accurate and up-to-date information, resource usage is fetched at regular intervals using Crontab.",
       "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/linux_sql",
       "name": "Cluster Monitor"
     },
@@ -97,7 +97,7 @@
     },
     {
       "company": "Iranian Iron \u0026 Steel Institute of Education, Remote",
-      "description": "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, html and bootstrape, ensuring a user-friendly experience for all users.",
+      "description": "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, HTML and bootstrape, ensuring a user-friendly experience for all users.",
       "duration": "2021-2022",
       "title": "Full Stack Developer"
     },
@@ -125,7 +125,7 @@
       "REST APIs",
       "Docker",
       "Git",
-      "Html/CSS",
+      "HTML/CSS",
       "Agile/Scrum"
     ],
     "familiar": [
@@ -140,11 +140,11 @@
       "Java",
       "React",
       "Angular",
-      "Linux bash scripting",
+      "Bash",
       "Node.js",
       "MongoDB",
       "SQL"
     ]
   },
-  "summary": "As a Junior Software Engineer at Jarvis Consulting Group, I bring a strong academic background and practical skills gained through both my PhD research and completion of the General Assembly software immersive bootcamp. My academic journey includes earning a master's and PhD in computer science from UTM University, where my research focused on demonstrating the vulnerability of graphical password authentication to dictionary attacks. Specifically, my research investigated the aggregation of regions within an image that exhibit low-level properties and their impact on security. Through this academic pursuit, I authored two books available on Amazon that comprehensively capture the findings of my research. However, recognizing the importance of practical and technical skills in the software engineering industry, I decided to complement my academic expertise with hands-on experience. This led me to enroll in the General Assembly software immersive bootcamp, where I gained proficiency in a range of programming languages and frameworks, including Java, JavaScript/TypeScript, React, Angular, Next.js, MongoDB, and Django. Additionally, I honed my skills in utilizing essential tools such as Git, Docker, and agile methodologies during the bootcamp."
+  "summary": "As a Junior Software Engineer at Jarvis Consulting Group, I bring practical skills and a strong academic background gained through both through completion of the General Assembly software immersive bootcamp and my PhD research. My academic journey includes earning a master's and PhD in computer science from UTM University, where my research focused on demonstrating the vulnerability of graphical password authentication to dictionary attacks. Specifically, my research investigated the aggregation of regions within an image that exhibit low-level properties and their impact on security.  However, recognizing the importance of practical and technical skills in the software engineering industry, I decided to complement my academic expertise with hands-on experience. This led me to enroll in the General Assembly software immersive bootcamp, where I gained proficiency in a range of programming languages and frameworks, including Java, JavaScript/TypeScript, React, Angular, Next.js, MongoDB, and Django. Additionally, I honed my skills in utilizing essential tools such as Git, Docker, and agile methodologies during the bootcamp."
 }
