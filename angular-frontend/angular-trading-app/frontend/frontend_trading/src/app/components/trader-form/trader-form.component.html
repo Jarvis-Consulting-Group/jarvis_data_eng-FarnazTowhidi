@@ -1,0 +1,10 @@
+<p>trader-form works!</p>
+<form (ngSubmit)="AddTrader()" #heroForm="ngForm">
+  <label>Name:</label>
+  <input type="text" name="firstName" [(ngModel)]="firstName" >
+  <label>LastName:</label>
+  <input type="text" name="lastName" [(ngModel)]="lastName" >
+  <label>Dob</label>
+  <input type="text" name="dob" [(ngModel)]="dob">
+  <button type="submit">Submit</button>
+</form>
