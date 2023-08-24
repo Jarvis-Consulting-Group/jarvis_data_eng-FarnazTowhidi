@@ -5,8 +5,142 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73ebfce3-0a70-4c66-9d1a-6713d7eed80e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/core_java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/.idea/assets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/assets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/core_java_ER.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/sql/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/sql/customer.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/sql/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/sql/orders.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/sql/product.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/sql/salesperson.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/assets/sql/stored_proc.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/data/txt/shakespeare.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/grep.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/log/grep.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/out/grep.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/Regex/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/Regex/LambdaStreamExc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/Regex/LambdaStreamExcImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/Regex/RegexExc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/Regex/RegexExcImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/grep/JavaGrep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/grep/JavaGrepImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/classes/ca/jrvs/apps/Regex/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/classes/ca/jrvs/apps/Regex/LambdaStreamExc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/classes/ca/jrvs/apps/Regex/LambdaStreamExcImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/classes/ca/jrvs/apps/Regex/RegexExc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/classes/ca/jrvs/apps/Regex/RegexExcImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/classes/ca/jrvs/apps/grep/JavaGrep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/classes/ca/jrvs/apps/grep/JavaGrepImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/grep-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/grep/target/original-grep-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/jdbc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/learning-jdbc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/DatabaseConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/JDBCExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/OrderLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/util/DataAccessObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/jdbc/util/DataTransferObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/CustomerDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/DatabaseConnectionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/JDBCExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/OrderDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/OrderLine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/util/DataAccessObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/jdbc/util/DataTransferObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/twitter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intellij-java-google-style.xml.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux_sql/profile/jarvis_profile_Farnaz_Towhidi.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux_sql/profile/profile.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux_sql/profile/profile_app.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/.idea/practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codingChallenge/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codingChallenge/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/Fibonacci.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codingChallenge/target/test-classes/ca/jrvs/practice/codingChallenge/EvenOddTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.idea/profile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/jarvis_profile_Farnaz_Towhidi.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/profile/jarvis_profile_Farnaz_Towhidi.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codingChallenge/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codingChallenge/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codingChallenge/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codingChallenge/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codingChallenge/codingChallenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codingChallenge/codingChallenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/IsValidParantesisSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/IsValidParantesisSolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/StringContainOnlyDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/StringContainOnlyDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/isAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codingChallenge/target/classes/ca/jrvs/practice/codingChallenge/isAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/profile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/linux_sql/profile/profile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile/profile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.yaml" afterDir="false" />
     </list>
@@ -26,32 +160,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/centos/dev/jarvis_data_eng_Farnaz"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/centos/dev/jarvis_data_eng_Farnaz&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/linux_sql/sql" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="jarvis_data_eng_Farnaz" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="jarvis_data_eng_Farnaz" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
