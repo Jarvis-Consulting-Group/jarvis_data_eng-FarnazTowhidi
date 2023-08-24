@@ -10,10 +10,13 @@
       </profile>
     </annotationProcessing>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="codingChallenge" target="1.8" />
     </bytecodeTargetLevel>
 =======
 >>>>>>> 7f1cab401e2d11dbae7e372f14934b78b498f298
+=======
+>>>>>>> 4dc725a0668dd5516bfe0c798d0168602740f20a
   </component>
 </project>
