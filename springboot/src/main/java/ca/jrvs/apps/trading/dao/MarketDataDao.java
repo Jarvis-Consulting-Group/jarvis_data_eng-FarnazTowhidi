@@ -63,6 +63,7 @@ public class MarketDataDao implements CrudRepository<IexQuote, String> {
         System.out.println("Executing Get request of URL; " + IEX_BATCH_URL);
         try {
             String response = String.valueOf(executeHttpGet(new URI(uri)));
+
             JSONObject IexQuotesJson = new JSONObject(response);
 
         } catch (URISyntaxException e) {
