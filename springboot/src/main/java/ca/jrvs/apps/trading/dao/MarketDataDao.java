@@ -2,6 +2,7 @@ package ca.jrvs.apps.trading.dao;
 
 import ca.jrvs.apps.trading.model.domain.IexQuote;
 import ca.jrvs.apps.trading.model.domain.config.MarketDataConfig;
+import ca.jrvs.apps.trading.service.JsonUtil;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -58,27 +59,30 @@ public class MarketDataDao implements CrudRepository<IexQuote, String> {
      **/
     @Override
     public Optional<IexQuote> findById(String ticker) {
-        Optional<IexQuote> iexQuote;
+        //List<IexQuote> iexQuote;
         String uri = String.format(IEX_BATCH_URL, ticker);
         System.out.println("Executing Get request of URL; " + IEX_BATCH_URL);
         try {
-            String response = String.valueOf(executeHttpGet(new URI(uri)));
+            String response = executeHttpGet(new URI(uri)).get();
+            System.out.println(response);
 
             JSONObject IexQuotesJson = new JSONObject(response);
+            if (response.length() == 0 ){
+                throw new IllegalArgumentException("Invalid ticker");
+            }
+
+            IexQuote iexQuote = JsonUtil.toObjectFromJson(IexQuotesJson.toString(),IexQuote.class);
+
+            System.out.println("IEX Quote: " + IexQuotesJson);
+            System.out.println(IexQuotesJson);
+            System.out.println("Last Update: " + iexQuote.getLatestUpdate());
 
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
-//
-//        if (quotes.size() == 0){
-//            return Optional.empty();
-//        } else if (quotes.size() == 1){
-//            iexQuote = Optional.of(quotes.get(0));
-//        }else {
-//            throw new DataRetrievalFailureException("Unexpected number of quotes");
-//        }
         return Optional.empty();
-
     }
 
     @Override
