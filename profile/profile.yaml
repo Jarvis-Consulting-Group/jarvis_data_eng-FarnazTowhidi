@@ -8,49 +8,30 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
 github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi
 
-# Introduce yourself, your academic and professional background.
-# What excites you about the software industry and your passion. At least 80 words
-summary: I am Farnaz, a new hire at Jarvis Consulting Group working as a technical consultant. I finished my master and PHD in the university Technology Malaysia in the computer science (Information Security) with the GPA of 3.65. I have been a Full stack developer with experience in designing and developing user interface, testing, debugging, implementing components in amazing companies like IBM, Canadian Institute of Cyber Security and Biossentials. I always feel passionate about increasing  my technical knowledge, thus I recently finished the the software immersive in General Assembly of Toronto, with GPA of 3.9. There is no end to my education, so I am still learning.
+summary: As a Junior Software Engineer at Jarvis Consulting Group, I bring practical skills and a strong academic background gained through both through completion of the General Assembly software immersive bootcamp and my PhD research. My academic journey includes earning a master's and PhD in computer science from UTM University, where my research focused on demonstrating the vulnerability of graphical password authentication to dictionary attacks. Specifically, my research investigated the aggregation of regions within an image that exhibit low-level properties and their impact on security.  However, recognizing the importance of practical and technical skills in the software engineering industry, I decided to complement my academic expertise with hands-on experience. This led me to enroll in the General Assembly software immersive bootcamp, where I gained proficiency in a range of programming languages and frameworks, including Java, JavaScript/TypeScript, React, Angular, Next.js, MongoDB, and Django. Additionally, I honed my skills in utilizing essential tools such as Git, Docker, and agile methodologies during the bootcamp.
 
 # Group your skills by level.
-# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Java
-    - Linux/Bash
-    - RDBMS/SQL
-    - Agile/Scrum
-    - Git
-  # At least 5 skills
-  competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
-  # At least 5 skills
-  familiar:
-    - Html/CSS
     - JavaScript
-    - Agile/Scrum
-    - React
-    - MongoDB
     - Java
+    - React
+    - Angular
+    - Bash
+    - Node.js
+    - MongoDB
     - SQL
-    - Linux/Bash
-    - MVC Pattern
   # At least 5 skills
   competent:
-    - MERN Infrastructure
-    - Oath Authentication
     - REST APIs
-    - Angular
-    - Deploy GitHub,Heroku
-    - Git, Git Hub
+    - Docker
+    - Git
+    - HTML/CSS
+    - Agile/Scrum
   # At least 5 skills
   familiar:
-    - Docker
+    - OAuth
     - TestRail
     - Selenium
     - Jira
@@ -58,117 +39,58 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Cluster Monitor"
-    git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
-
-# List of personal or academic projects
-# Feel free to add more projects
-highlighted_projects:
-    #project name
-  - name: "Web app for resturant"
-    #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description:  The project will be use by Jarvis Linux Cluster administrator (LCA) to manage 10 server node that connect to each other. They want project to record hardware spec of each server, and real time resource usage, so the plan is to design one MVP for them. The project implements by bash script and postgresSql, Linux command line, docker and  IDE. Manual testing done, by running the bash script and check the related tables to see if the data created properly.
-  - name: "RDBMS and SQL"
-    git_url: "/linux_sql/sql"
-    description:  Created SQL queries to retrieve data from multiple tables. A PostgreSQL instance using docker was utilized to load sample data and test the results of the queries. Git was used as version control for the project.
-  - name: "JDBC Apps"
-    git_url: "/core_java/jdbc"
-    description:  Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.
-  - name: "Grep App"
-    git_url: "/core_java/grep"
-    description: Similar to the egrep tool this project aims to read all the files in the provided directory and tries to search for the regex expression that has to be searched in the program. The project uses Java, Lambda, Steams and Regular expression for designing and attaining the outputs.
   - name: "Twitter CRUD App"
     git_url: "/core_java/twitter"
-    description: Created a Java CRUD application that uses Twitter's REST API v2 to create and manage tweets. The user can create tweets, or delete a list of tweets by ID, all from via CLI. The app sends requests to Twitter's API through HTTP requests in the form of JSON messages, authenticated with OAuth. The architecture used follows the MVC design pattern. The build system used was Maven, and deployment was done through Docker.
+    description: I have developed an MVC application that allows users to create and delete tweets on Twitter using the Twitter REST API v2. The application follows a layered architecture with four components; model, controller, service, and data access. The Controller layer handles client input and calls the service layer to handle the business logic. The service layer interacts with the Data Access Object for communication with the Twitter REST API. This enables actions such as posting, showing, and deleting tweets. To ensure the quality of the code, integration and unit testing are performed using the Mockito and JUnit4 libraries. To authenticate with the Twitter API, the application utilizes the OAuth 1.0a protocol, which includes the necessary credentials in the HTTP Authorization header. For easy distribution and deployment, the project is packaged into a Docker image and published on Docker Hub. In addition, the spring boot framework is used to manage dependencies.
+  - name: "Cluster Monitor"
+    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-FarnazTowhidi/tree/develop/linux_sql"
+    description: This project is used by the Jarvis Linux Cluster Administrator (LCA) team to manage server nodes in a closed network. A series of bash scripts collects the hardware specs of each server like host name, CPU architecture, CPU model, and L2 cache as well as real time resource usage of each server like CPU idle, kernel statistics and available disk space. The PostgreSQL Docker container configured and maintained to store and manage the collected data. To ensure accurate and up-to-date information, resource usage is fetched at regular intervals using Crontab.
+  - name: "Grep App"
+    git_url: "/core_java/grep"
+    description: This project simulatered the egrep text processing tool, enabling recursive searches of a given directory using regular expressions. The BufferedReader class is used to read the file, and regular expressions are applied to compare words against the provided regex pattern. The identified words are saved to an output file using the FileWriter class. Additionally, the project was re-implemented using Lambda and Stream APIs to write code in a more readable functional programming style, as well as processing large files. Maven is utilized for dependency management, specifically for incorporating slf4j and log4j for logging purposes.
+  - name: "JDBC Apps"
+    git_url: "/core_java/jdbc"
+    description: Developed proficiency in data access patterns and JDBC by performing data manipulation tasks on the hplussport PostgreSQL database. Utilized Dbeaver and Intellij Idea for database management, Docker for containerization, PostgreSQL and PSQL CLI tool for database creation and manipulation, JDBC for data access, and Maven for build automation.
+  
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-  - name: "McDonald's Application"
-    git_url: "https://github.com/FarnazTowhidi/macDonald"
-    description: Solo, 1 week project for DRY REST API of fully-functional styled inventory application. Technologies used, Express/Node and MongoDB, Python.
+  - name: "A new method of dictionary attack on cued graphical password"
+    git_url: ""
+    description: As an ethical researcher, in my PHD, I proposed a model to identifying the weaknesses of a cue-based graphical passwords to dictionary attack.   This model analyze an image and identifies areas within the image that have the potential to capture the user's attention. Since any high difference in colour, intensity and orientation can highlight the object from its surrounding, the algorithm calculated the values of these three features for all pixels in the image. The output consists of points that exhibit noticeable dissimilarities from their surroundings, indicating their likelihood to attract the user's focus.  These areas created a new dictionary of graphical password, that were used to attack actual passwords of users. The model used Matlab for color detection, HTML for user interface and SQL Server for databases of passwords.
   - name: "Chatterbox"
     git_url: "https://github.com/FarnazTowhidi/mern-project"
-    description: Group of 4 developers creates a MERN stack application, a responsive single page application. Uploader with the use of AWS S3 buckets and the npm package, "aws-sdk". Technologies used, MongoDB, Express, React, Socket.io, Amazon Web Services.
+    description: I have developed "Chatterbox," an instant messaging application with a Client-Server architecture that enables real-time communication between users. In this single-page application, the client-side scripting is implemented using React and Material-UI (MUI), providing a seamless and intuitive user interface. To handle data storage and manipulation, CRUD requests are sent to the server through API calls using Express.js and MongoDB. The application leverages Socket.io to achieve the functionality of instant messaging, enabling users to engage in real-time conversations. Additionally, the aws-sdk package is utilized to facilitate the smooth uploading of images to Amazon Web Service (AWS) S3 buckets. This allows users to easily share and display images within the application. Lastly, the project is deployed to Heroku, ensuring that Chatterbox is accessible and available to users on a reliable hosting platform. 
   - name: "Track Fit"
     git_url: "https://github.com/aerlikh17/track-fit-app"
-    description: Group of 5 developers creates a full crud application in 1 week, for recording the user's daily fitness log. Technologies used, HTML, CSS, Python, Django, PostreSQL.
-  - name: "War Card Game"
+    description: Track Fit is a Python-based Django Web Framework designed for individuals to track their fitness journey. With Django's built-in authentication, users can securely authenticate and manage their daily exercises in a PostgreSQL database. The framework also provides yearly reports grouped by month for insightful analysis. Deployment is seamless through Heroku, ensuring easy accessibility and availability for users.
+  - name: "Card Game War"
     git_url: "https://github.com/FarnazTowhidi/warCardGame"
-    description: Solo, 1 week project for the browser base game, using application state, manipulating DOM and includes shuffling and win/loss logic. Technologies used, HTML, CSS and JavaScript.
+    description: I simulated the card game war with Vanilla JavaScript, HTML and CSS. The JavaScript used to implement the game logic to handle shuffling the deck, dealing cards to players, comparing card values, determining the round winner, and managing the game state. More over JavaScript used to interact with the DOM to update the game's visual elements when playing rounds, displaying cards, and declaring a winner.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
-  #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
-    company: "Jarvis"
-    duration: "2020-present"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-
-#List of edcuation
-education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
-    # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements:
-  - title: "Technical Consultant"
     company: "Jarvis"
     duration: "2023-present"
-    description: "Developed multiple software applications and worked on projects using Java, SQL, Linux Bash, Docker and more. Agile/Scrum was used to collaborate with team and produce minimum viable products. Git was utilized for version control on projects."
+    description: "I have joined Jarvis as a Junior Software Engineer to develop, consult, and assist customers with their software solutions. I work in an Agile/Scrum development environment where I participate in daily scrum meetings with the Scrum Master to discuss our progress and possible blockers. The sprint meeting is held every two weeks to select from various projectusing Java, RDBMS, Linux, Docker, SpringBoot, React, and Angular."
+  - title: "Full Stack Developer"
+    company: "Iranian Iron & Steel Institute of Education, Remote"
+    duration: "2021-2022"
+    description: "Implemented a website for managing and scheduling workshops on Metallurgical and Materials engineering. Allowed organizations and individuals to create and sign-up for events, as well as share learning resources. The website created by asp, HTML and bootstrap, ensuring a user-friendly experience for all users."  
   - title: "Quality Assurance"
-    company: "IBM ,Fredericton"
+    company: "IBM, Fredericton"
     duration: "2020-2020"
-    description: "Part of security intelligence team of 10 working on QRadar that ensured the testing algorithms and probability threat analysis was maintained at peak efficiency"
+    description: "I joined IBM as a Tech-reentry in the Security Intelligence team, where I had the opportunity to learn about QRadar. Through this experience, I gained knowledge on how QRadar efficiently analyzes the log data and network flows to identify malicious activities. As part of my role as a QA, I was responsible for both automation and manual testing, utilizing tools such as Selenium WebDriver. While testing QRadar, I validating its functionalities and detecting any potential issues. Additionally, I worked extensively with Jenkins jobs during the QRadar patch release, ensuring smooth and efficient deployment."
   - title: "Full Stack Developer"
     company: "Canadian Institute of Cybersecurity, Fredericton"
     duration: "2019-2019"
-    description: "Designed and built website for International Conference on Privacy, Security and Trust,including information on events, workshops, organizers."
+    description: "I designed and implemented the PST website, a forum that designed for researchers worldwide to share their latest work in privacy, security, and trust. It is organized annually by the University of New Brunswick and the Canadian Institute for Cybersecurity. The website features a responsive design created using ASP, Bootstrap, HTML, and CSS. It provides various sections including a 'Call for Papers' to invite submissions, a 'Paper Registration' section for authors, and an archive of previous conferences."
   - title: "Full Stack Developer"
     company: "Biossentials, Kuala Lumpur"
     duration: "2009-2014"
-    description: "Worked closely with a designer to create and deploy a new comprehensive layout that allowed the customers to easily connect with vital information. Improved the quality of company search engine optimization performance. Overhauled the entire structure of the website, create keywords contents, change the naming of files and folder, recommended weekly content, deleting flash and other technologies to gain it"
+    description: "I redesigned the Biossentials website to prioritize SEO improvement. I focused on creating engaging content, optimizing relevant keywords, improving site structure, integrating social media, and enhancing user experience. The website was developed using ASP, HTML, and CSS, ensuring a professional and seamless online presence."
 
 #List of edcuation
 education:
@@ -185,7 +107,6 @@ education:
     department: "Faculty of Computing"
     # optional
     awards_achievements:
-      - This thesis creates a new method for dictionary of cued recall based graphical password by combination of top down and bottom visual attention. This approach leads to powerful automated dictionary attack that can guess up to 70% of some passwords.
   - school_name: "Universiti Teknologi Malaysia"
     duration: "2008-2010"
     degree: "Master of Computer Science (Information Security)"
@@ -200,13 +121,11 @@ others:
   - title: "Licenses & Certifications"
     #list of items
     bullets:
+      - "Authored: Graphical User Authentication (GUA): Graphical Password Algorithms and Analysis" 
+      - "Authored: Graphical Password An Alternative to Textual Password" 
       - "Computer Hacking Forensics Investigator (CHFI), EC-Council"
       - "Certified Ethical Hacker (CEH), EC-Council"
       - "Cloud Core, IBM"
       - "Design and User Experience (D&UX), IBM"
-      - "Introduction to Cloud, IBM"
-      - "Enterprise Design Thinking Practitioner, IBM"
-      - "Tech-ReEntry, IBM"
-      - "Marketing your own Business on Internet, University of Waterloo"
-      - "Effective Selling, University of Waterloo"
+
 

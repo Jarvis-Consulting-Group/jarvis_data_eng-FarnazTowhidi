@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+.input {
+  border-radius: 0px;
+}
+
+.input-quote, .input-quote:focus {
+  outline: none;
+  margin:10px;
+  border:1px solid rgb(255, 218, 229) !important;
+  border-radius: 0;
+  box-shadow: none;
+  height: 80px;
+  width:40%;
+}
+
+
+.title-quatation {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(181, 5, 55)
+}

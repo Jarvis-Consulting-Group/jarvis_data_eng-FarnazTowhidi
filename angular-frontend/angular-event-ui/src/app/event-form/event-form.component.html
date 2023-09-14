@@ -1,0 +1,26 @@
+<div class="example-container">
+  <mat-dialog-content>
+    <form (ngSubmit)="this.addEvent()">
+      <mat-form-field>
+        <mat-label>name</mat-label>
+        <input matInput [(ngModel)]="name" name="name">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>host</mat-label>
+        <input matInput [(ngModel)]="host" name="host">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>date</mat-label>
+        <input matInput [(ngModel)]="date" name="date">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>location</mat-label>
+        <input matInput [(ngModel)]="location" name="location">
+      </mat-form-field>
+      <button type="submit">Add Event</button>
+    </form>
+  </mat-dialog-content>
+</div>

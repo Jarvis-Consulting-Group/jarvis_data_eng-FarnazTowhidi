@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Event 1",
+    "host": "Host 1",
+    "date": "2023-06-01",
+    "location": "Location 1"
+  },
+  {
+    "name": "Event 2",
+    "host": "Host 2",
+    "date": "2023-06-15",
+    "location": "Location 2"
+  }
+]
